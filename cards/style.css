@@ -234,7 +234,9 @@ body {
    ============================================================ */
 
 .scroll {
-  width: min(1100px, 94vw);
+  width: 94vw;
+  max-width: 1100px;
+  box-sizing: border-box;
   border-radius: 28px;
   padding: 18px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 0 2px rgba(0,0,0,0.4) inset;
@@ -255,6 +257,7 @@ body {
 .scroll-inner {
   background: var(--parchment);
   border-radius: 16px;
+  box-sizing: border-box;
   padding: 26px 30px;
   box-shadow: 0 0 0 3px var(--gold) inset, 0 4px 10px rgba(0,0,0,0.3) inset;
   color: #241c10;
@@ -330,6 +333,13 @@ body {
   overflow: hidden;
 }
 
+.scroll .table-wrap {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .scroll th {
   font-family: 'Cinzel', serif;
   font-size: 11.5px;
@@ -382,6 +392,53 @@ body {
 
 @media (max-width: 760px) {
   .scroll .two-col { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  body:has(> .scroll) {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 12px;
+  }
+
+  .scroll {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    border-radius: 18px;
+  }
+
+  .scroll-inner {
+    padding: 18px 12px;
+    min-width: 0;
+  }
+
+  .scroll-title h1 {
+    font-size: clamp(22px, 7vw, 30px);
+  }
+
+  .scroll-title .sub {
+    font-size: 12px;
+  }
+
+  .scroll-nav {
+    gap: 8px;
+  }
+
+  .scroll-nav a {
+    white-space: normal;
+    text-align: center;
+    padding: 6px 9px;
+  }
+
+  .scroll h2 {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+
+  .scroll .table-wrap table {
+    min-width: 560px;
+  }
 }
 
 .scroll .vendor-grid {

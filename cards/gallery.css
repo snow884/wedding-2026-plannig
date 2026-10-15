@@ -87,3 +87,39 @@ h1 {
 .tile-links a:hover {
   background: rgba(212,175,55,0.35);
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 28px 14px 48px;
+  }
+
+  h1 {
+    font-size: clamp(1.35rem, 7vw, 2rem);
+  }
+
+  .sub {
+    margin-bottom: 24px;
+  }
+
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .tile-links {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 10px 14px;
+    font-size: 11px;
+  }
+
+  .tile-links a {
+    flex: 1 1 120px;
+    min-width: 0;
+    padding: 6px 8px;
+  }
+
+  .tile:hover {
+    transform: none;
+  }
+}

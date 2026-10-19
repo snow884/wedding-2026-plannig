@@ -1,7 +1,7 @@
 # Brittany + Adam — Master Wedding Day Timetable
 **Saturday, November 7, 2026 — Great Neck / College Point / Flushing, NY**
 
-> Built from: `per_person_plan.csv`, `Wedding 2025 Brittany + Adam - Time table church.csv`, `Client Function Sheet (E23526).pdf`, `wedding-food-selection.pdf`, `CustomerTripSheet.pdf`, `hotel_contract_2026.pdf`, `Wedding 2025 Brittany + Adam - Budget.csv`, `rsvp.csv`, and TheKnot.com wedding website. Where the source documents were silent, standard wedding-day best practice is used and clearly marked **[Suggested]**.
+> Schedule revised from the Oct 18 updates to `Wedding 2025 Brittany + Adam - Time table before.csv`, `Wedding 2025 Brittany + Adam - Time table church.csv`, and `Wedding 2025 Brittany + Adam - Time table reception.csv`, alongside the venue, transportation, hotel, budget, RSVP, and wedding-website records. Where details remain unconfirmed, they are identified rather than inferred.
 
 ---
 
@@ -14,7 +14,7 @@
 | 3 | **"Parents' toast" clarified.** peter & Karin's **"Welcome speech/toast"** before dinner is a brief 1–2 minute welcome; their full **"Brittany's parents speech"** during the formal Speeches segment (between courses) is the complete toast. Both are intentional, not a duplicate — the DJ/MC has been briefed to introduce them differently each time. |
 | 4 | **Kids' meals are not pre-ordered.** The venue's menu says *"Kids Meals Available Upon Request"* — Meda, Sofia, Madison, and Emeric are all on-site through a 10:15 PM adult entrée service. **Request kids' meals and an earlier kids' food time** from Leonard's Palazzo in advance. |
 | 5 | **Rings are real heirlooms carried by a 1-year-old-adjacent toddler crew.** Emeric (the ring bearer) is listed to physically carry the rings into the ceremony. **[Suggested]** Use decoy/prop rings on Emeric's pillow and have Gustavo (best man) privately hold the real rings until the exchange, which is standard practice to avoid lost rings. |
-| 6 | ~~No rehearsal plan or rehearsal dinner venue is documented anywhere in the source files.~~ **Resolved:** a full rehearsal-day plan is set below, and the rehearsal dinner is booked in Leonard's Palazzo's private dining room, Friday evening, separate from Saturday's reception reservation. |
+| 6 | **Rehearsal dinner location updated:** the Oct 18 timetable says the dinner begins at 6:00 PM at Zum Stammtisch, replacing the earlier Leonard's Palazzo entry. |
 
 ---
 
@@ -43,16 +43,14 @@
 |------|-------|-----|----------|
 | **2:00 PM** | Adam & Brittany set up decorations at the church ahead of the rehearsal. | Adam, Brittany | St John's Lutheran Church |
 | **After 3:00 PM** | Hotel check-in opens (photo ID required). Out-of-town family — especially Bara + Meda traveling from the Czech Republic — should plan arrival buffer time for travel fatigue/jet lag. | Everyone staying at the Inn at Great Neck | Inn at Great Neck, 30 Cutter Mill Rd |
-| **4:00–5:00 PM** | **Ceremony rehearsal** — full walkthrough of the processional order, altar positions, vow cues, ring exchange placement, candle-lighting choreography, and recessional, led by the officiant | Adam, Brittany, Marie, Gustavo, Dalia, Julia, Julie, Bara, Autumn, Chris, Erik, Max, Meda, Sofia, Emeric, Madison (if available), peter, Karin, Tomas, Radka, Omi, Eric & April Demery (Eric practices his reading), officiant | St John's Lutheran Church |
+| **4:00 PM** | **Ceremony rehearsal** — full walkthrough of the processional order, altar positions, vows, ring exchange, candle-lighting, and recessional, led by the officiant | Adam, Brittany, Marie, Gustavo, Dalia, Julia, Julie, Bara, Autumn, Chris, Erik, Max, Meda, Sofia, Emeric, Madison, peter, Karin, Tomas, Radka, Omi, Eric & April Demery, officiant | St John's Lutheran Church |
 | **4:05 PM** | Adam & Brittany step aside to privately practice their vows. | Adam, Brittany | St John's Lutheran Church |
-| **6:00–6:30 PM** | Travel from church to rehearsal dinner venue | Rehearsal attendees | Church → Dinner venue |
-| **6:00–8:00 PM** | **Rehearsal dinner** — hosted by the groom's parents (Tomas & Radka) | Wedding party + immediate family (same list as rehearsal, plus Uncle Danny) | **Leonard's Palazzo — private dining room** (separate Friday-evening reservation from Saturday's reception) |
-| **8:00 PM** | Return to hotel. | Adam, Brittany, Gustavo, Meda, Tomas, Radka | Leonard's Palazzo → Inn at Great Neck |
-| **By 9:30 PM** | Early night for the rest of the kids (Sofia, Madison, Emeric) and anyone traveling internationally — ceremony call time the next day is early afternoon. Everyone else returns to the hotel at their own pace after dinner winds down. | Flower girls, ring bearer, jet-lagged travelers | Inn at Great Neck |
+| **6:00 PM** | **Rehearsal dinner begins** | Wedding party and listed family | Zum Stammtisch |
+| **8:00 PM** | Return to the Inn at Great Neck. | Adam, Brittany, Bara, Gustavo, Meda, Madison, Tomas, Radka | Zum Stammtisch → Inn at Great Neck |
 
-**Who should attend the rehearsal:** the couple, the full wedding party (Maid of Honor, Best Man, all bridesmaids/groomsmen), the flower girls and ring bearer (a short, simplified walkthrough is enough for the kids), both sets of parents, Omi, Eric & April Demery (since Eric delivers a reading), and the officiant.
+**Who should attend the rehearsal:** the couple, the full wedding party, the flower girls and ring bearer, both sets of parents, Omi, Eric & April Demery, and the officiant.
 
-**Items to bring to rehearsal:** comfortable shoes (not full formalwear), the officiant's contact info, a printed copy of the vows/reading for Eric Demery to practice with, and the ring pillow (practice run — no need to use the real rings).
+**Items to bring to rehearsal:** comfortable shoes (not full formalwear), the officiant's contact info, and the ring pillow (practice run — no need to use the real rings).
 
 ---
 
@@ -62,49 +60,39 @@
 
 | Time | Event | Who | Location |
 |------|-------|-----|----------|
-| **7:00 AM** | Chris picks Autumn up at the hotel and drives her to her hair appointment. | Autumn, Chris | Inn at Great Neck → Lush Hair Studio |
-| **8:30 AM** | Hair salon appointment — Karin drives herself, Brittany, and Omi to the same appointment; Autumn arrives separately with Chris. | Brittany, Autumn, Karin, Omi | Lush Hair Studio, 185 Northern Blvd, Great Neck |
+| **7:00 AM** | Chris picks Autumn up at the hotel and drives her to Christie & Co. Luxury Hair Salon & Spa. | Autumn, Chris | Inn at Great Neck → Bayside |
+| **8:30 AM** | Hair appointments: Brittany and Autumn at Christie & Co.; Karin and Omi at a separate salon whose name/location is not in the timetable. | Brittany, Autumn, Karin, Omi | Bayside; second salon TBD |
 | **9:30 AM** | Adam receives the florist's bouquet delivery at the hotel. | Adam | Inn at Great Neck |
-| **9:30–10:30 AM** | peter teaches his regular Saturday class (his day job) one last time, finishing in plenty of time before the 1:15 PM ride to the church. | peter | Off-site |
+| **9:30 AM and 10:00 AM** | peter's timetable lists teaching at both times; the class end time is not specified. | peter | Off-site |
 | **After the 9:30 AM delivery** | Adam routes Brittany's bouquet to her room without seeing her, preserving the first-look surprise. | Adam | Inn at Great Neck |
 | **10:00 AM** | Groomsmen take photos at the hotel. | Adam, Gustavo, Chris, Erik, Max, Tomas | Inn at Great Neck |
 | **10:00 AM** | Marie, Dalia, Julia, and Julie arrive at the hotel for pictures. | Marie, Dalia, Julia, Julie | Inn at Great Neck |
-| **~10:30 AM** | Chris drives Autumn back to the hotel in time for the 12:00 PM bridesmaid pictures. | Autumn, Chris | Lush Hair Studio → Inn at Great Neck |
 | **12:00 PM** | Pictures of the Bridesmaids group — Brittany brings the wedding bands and wedding invitation as photo props. | Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Meda, Sofia, Madison, Radka, Omi | Inn at Great Neck |
 | **1:00 PM** | Camelot Limo Bus (26-pax Bus-Limo, driver Bill Townsend, (646) 498-4454) departs the hotel for the church — **first wave** (the groomsmen go ahead to get into position early) | Gustavo, Chris, Erik, Max, Tomas | Inn at Great Neck → Church |
-| **~1:15 PM** | **Adam + peter (bride's father) depart together in peter's personal car** directly to the church — *not* on the limo bus | Adam, peter | Hotel → Church |
-| **1:15 PM** | Eric & April Demery depart by car directly to the church with Emeric. | Eric Demery, April Demery, Emeric | Hotel → Church |
-| **1:15 PM** | Camelot Limo Bus departs hotel for the church — **second/main wave** (the rest of the bridal party) | Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Meda, Sofia, Madison, Karin, Radka, Omi | Inn at Great Neck → Church |
+| **1:15 PM** | Adam and peter depart together in peter's personal car directly to the church. | Adam, peter | Inn at Great Neck → Church |
+| **1:15 PM** | Camelot Limo Bus departs for the church — **second/main wave**. Tomas is also listed in the 1:00 PM first wave; confirm which departure is correct. | Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Meda, Sofia, Madison, Karin, Tomas, Radka, Omi | Inn at Great Neck → Church |
+| **Departure time not specified** | Eric & April Demery travel by themselves with Emeric. | Eric Demery, April Demery, Emeric | Hotel → Church |
 | **1:45 PM** | Arrive at church. | Everyone | St John's Lutheran Church |
 | **2:00 PM** | **Ceremony begins** — St John's Lutheran Church, 2201 123rd St, College Point, NY 11356 (ceremony only, no mass) | Everyone | St John's Lutheran Church |
 | 2:00 PM | Processional / entrances to altar (see [Ceremony Order](#️-ceremony-processional-order-church)) | See order below | Church |
-| **2:05 PM** | Adam & Brittany say their vows. | Adam, Brittany | Church |
-| **2:05 PM** | peter, Karin, Tomas, and Radka begin the candle-lighting ceremony during the vows. | peter, Karin, Tomas, Radka | Church |
-| **2:10 PM** | Adam & Brittany light the unity candle together. | Adam, Brittany | Church |
-| **2:10 PM** | Karin steps out to check the reception arrangements using the crate she dropped off the week before. | Karin | Leonard's Palazzo |
-| ~2:50 PM | Karin hands bubbles to all guests | Karin → everyone | Church exterior |
-| ~2:55 PM | Recessional: everyone except Adam & Brittany exits the church. | Everyone except Adam & Brittany | Church |
-| After the rest of the party exits | Everyone else forms the bubble-send-off line outside. | Everyone except Adam & Brittany | Church exterior |
-| ~2:55 PM | Adam & Brittany exit last through the bubble line. | Adam, Brittany | Church exterior |
-| **~3:00 PM** | Ceremony ends (approximately one-hour runtime per contract). | — | Church |
-| After ceremony ends (**~3:00 PM**) | **[Suggested]** Receiving line outside the church *(noted on the limo trip sheet: "Receiving Line")*. | Everyone | Church steps |
-| After the **~3:00 PM** receiving line and before photos | Bridal party and immediate family travel to Francis Lewis Park. | Bridal party, immediate family | Church → Francis Lewis Park |
-| After arrival at Francis Lewis Park and before the **3:30 PM** bus | Formal photos; finish in time for the scheduled bus departure. Exact photo start/end to be confirmed with the photographer. | Bridal party, immediate family | Francis Lewis Park, 3rd Ave & 147th St, Flushing, NY 11357 |
-| **3:30 PM** | Party bus departs for Leonard's Palazzo after the formal photos; confirm the exact pickup point with Camelot. | Bridal party + both sets of parents + Omi | Photo location → Leonard's Palazzo |
-| **4:00 PM** | Limo bus drop-off at the reception venue (end of contracted bus service — overtime billing starts 31 min after this) | Bridal party | Leonard's Palazzo, 555 Northern Blvd, Great Neck |
+| After the processional | Pastor reads the scripture; everyone kneels for prayer. Adam and Brittany say personal vows, then repeat the official religious vows after the pastor. | Everyone; Adam, Brittany | Church |
+| Ring exchange | Emeric brings the rings to the altar; Adam and Brittany exchange rings. | Adam, Brittany, Emeric | Church |
+| Candle-lighting | Peter, Karin, Tomas, and Radka light individual candles from the Christ candle; Adam and Brittany light the unity candle with their parents holding their hands. | Adam, Brittany, Peter, Karin, Tomas, Radka | Church |
+| After the ceremony | Karin hands bubbles to everyone. The wedding party forms a line outside; Adam and Brittany exit last together, with Marie holding Brittany's dress as they exit. | Wedding party and guests; Marie | Church and exterior |
+| **3:30 PM** | Party bus departs from the church for Leonard's Palazzo. The timetable does not list a photo stop before this departure. | Wedding party and listed family | St John's Lutheran Church → Leonard's Palazzo |
+| Arrival time not specified | The party bus arrives at Leonard's Palazzo; the timetable gives the 3:30 PM church departure but no arrival time. | Wedding party and listed family | Leonard's Palazzo |
 | **4:30 PM** | Bridal suite becomes available for the wedding party. | Bridal party | Leonard's Palazzo |
-| **4:30–6:30 PM** | Suite Set — appetizers & beverage service for the host party (private wedding suite) | Adam, Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Gustavo, Chris, Erik, Max | Private suite, Leonard's Palazzo |
+| **4:30–6:30 PM** | Suite Set — appetizers & beverage service in the separate wedding suite | Adam, Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Gustavo, Chris, Erik, Max | Private suite, Leonard's Palazzo |
 | **5:30 PM** | Pictures in front of Leonard's Palazzo. | Everyone (bridal party, Emeric, both sets of parents, Omi) | Leonard's Palazzo exterior |
-| **6:30 PM** | Private cocktail hour begins in the bridal suite for the wedding party. | Bridal party | Private suite, Leonard's Palazzo |
-| **6:30 PM** | General **Cocktail Hour** begins for the guests (invitation time). | Guests; Madison, Emeric, peter, Karin, Tomas, Radka, Omi | Leonard's Palazzo |
+| **6:30 PM** | Cocktail hour in the separate wedding suite. | Adam, Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Gustavo, Chris, Erik, Max, Meda, Sofia | Private suite, Leonard's Palazzo |
+| **6:30 PM** | General **Cocktail Hour** begins for other guests, including Madison, Emeric, peter, Karin, Tomas, Radka, and Omi. | Guests | Leonard's Palazzo |
 | **~7:00 PM** | Formal room/portrait shots | Bridal party | Leonard's Palazzo |
 | **7:30 PM** | Reception begins. | Everyone | Reception room |
-| **7:30–7:45 PM** | **Grand Entrance** — see [Grand Entrance Order](#-grand-entrance-order-reception). | Everyone | Reception room |
-| **7:45 PM** | First Dance — Adam + Brittany, "Dancing on Clouds" (fog effect) | Adam, Brittany | Dance floor |
-| ~7:48 PM | MC/DJ invites other couples to the floor | Everyone | Dance floor |
-| **~7:50 PM** | First parent dance: Brittany dances with peter (father–daughter). | Brittany, peter | Dance floor |
-| **Immediately after the first parent dance (~7:50 PM)** | Second parent dance: Adam dances with Radka (mother–son). **[Suggested]** Run the dances one at a time so each is spotlighted. | Adam, Radka | Dance floor |
-| **After the parent dances (~7:50 PM)** | Open dancing resumes between scheduled reception events; follow the MC/DJ's cues. | Everyone | Dance floor |
+| **After reception begins at 7:30 PM** | **Grand Entrance & Seating** — a 15–20 minute sequence; see [Grand Entrance Order](#-grand-entrance-order-reception). | Everyone | Reception room |
+| **After the grand entrance** | First Dance — Adam and Brittany dance to **"Can't Help Falling in Love" by Elvis Presley** (Dancing on Clouds effect). | Adam, Brittany | Dance floor |
+| **After the first dance** | The MC/DJ invites other couples to join Adam and Brittany on the dance floor. | Couples | Dance floor |
+| **Parent dances** | Brittany dances with peter to **"Give Me a Way" by Riley Roth**, then Adam dances with Radka to **"Zestárli jsme lásko" by Nohavica**. | Brittany, peter, Adam, Radka | Dance floor |
+| **After the parent dances** | Open dancing; the timetable requests mostly Pitbull and Bebe Rexha. | Everyone | Dance floor |
 | **~7:55 PM** | Brief welcome toast before the first course. | peter & Karin | Reception room |
 | **~7:55 PM** | Blessing before the first course; order relative to the welcome toast is not specified. | Uncle Danny | Reception room |
 | **8:00 PM** | **First Course** — Penne alla Vodka | Everyone (incl. kids' meals — *pre-order needed*) | Reception room |
@@ -127,51 +115,42 @@
 
 ## ⛪ Ceremony Processional Order (Church)
 
-Ceremony begins at **2:00 PM**. The processional steps are in this order; individual minute marks are not scheduled unless stated:
+Ceremony begins at **2:00 PM**. Individual ceremony actions below have no scheduled minute marks in the Oct 18 timetable:
 
-1. Adam enters alone and takes his position at the altar; first processional entry.
-2. Gustavo (Best Man) enters alone immediately after Adam and takes his position beside him.
-3. Tomas walks in with Radka (groom's parents) immediately after Gustavo.
-4. Max escorts Dalia down the aisle immediately after Tomas and Radka.
-5. Julia and Julie walk in together, arm-in-arm, immediately after Max and Dalia.
-6. Bara and Autumn walk in together, arm-in-arm, immediately after Julia and Julie.
-7. Marie (Maid of Honor) walks in alone immediately after Bara and Autumn, then takes her position at the altar.
-8. Erik and Chris escort Omi (grandmother of the bride) to her front-row seat immediately after Marie.
-9. After Omi is seated, Erik and Chris take their positions at the altar.
-10. Meda and Sofia (flower girls) walk in together immediately after Erik and Chris take their positions.
-11. While walking, Meda and Sofia scatter petals.
-12. Emeric pulls Madison down the aisle in a decorated wagon immediately after Meda and Sofia.
-13. Brittany walks in with peter immediately after Emeric and Madison.
-14. At the altar, Brittany hands her bouquet to Marie.
-15. After the processional, Eric Demery delivers the prayer/reading.
-16. At **2:05 PM**, Adam and Brittany say their vows.
-17. During the vows at **2:05 PM**, peter, Karin, Tomas, and Radka begin the candle-lighting ceremony.
-18. After the vows, Emeric brings forward the rings.
-19. Adam and Brittany exchange rings.
-20. At **2:10 PM**, Adam and Brittany light the unity candle together.
-21. At **2:10 PM**, Karin steps out to check the reception arrangements at Leonard's Palazzo.
-22. At **2:50 PM**, Karin distributes bubbles to the guests outside the church.
-23. At the **~2:55 PM** recessional, everyone except Adam and Brittany exits the church.
-24. After the rest of the party exits, they form the bubble-send-off line outside.
-25. Adam and Brittany exit last through the bubble line.
-26. After the ~3:00 PM receiving line, the bridal party and immediate family travel from the church to Francis Lewis Park.
-27. After arrival at Francis Lewis Park and before the 3:30 PM bus departure, complete formal photos; confirm the exact photo window with Lawrence Photography.
-28. At **3:30 PM**, the party bus departs from the pickup point confirmed with Camelot for Leonard's Palazzo.
+1. Adam and Gustavo enter together; Adam waits at the altar and Gustavo sits down.
+2. Erik escorts Omi into the church and to her seat.
+3. Tomas and Radka enter together as the groom's parents and are seated.
+4. Chris escorts Karin into the church; Karin's entrance signals the congregation to stand.
+5. Chris, Autumn, and Bara enter together.
+6. Erik and Julia enter together.
+7. Max, Julie, and Dalia enter together.
+8. Marie (Maid of Honor) enters.
+9. Meda and Sofia (flower girls) enter with petal baskets and scatter petals.
+10. Emeric pulls Madison in a wagon; Madison carries a small petal basket.
+11. Brittany enters with Peter and hands her bouquet to Marie.
+12. The pastor reads scripture; everyone kneels for prayer.
+13. Adam and Brittany say their personal vows, then repeat the official religious vows after the pastor.
+14. Emeric brings the rings to the altar; Adam and Brittany exchange rings.
+15. Peter, Karin, Tomas, and Radka light candles from the Christ candle; Adam and Brittany light the unity candle with their parents holding their hands.
+16. After the ceremony, Karin hands bubbles to everyone. The wedding party forms a line outside; Adam and Brittany exit last together, with Marie holding Brittany's dress as they exit.
+17. Adam hands the $500 cash donation envelope to the pastor and the $200 envelope to the bridal-march musician; Karin uses a broom to clean up the flower petals.
+
+**Confirm before the rehearsal:** the timetable lists Chris both escorting Karin and entering later with Autumn and Bara; it also lists Erik escorting Omi and entering later with Julia. It does not explain how either person returns to the processional. Confirm the transitions with the officiant.
 
 ---
 
 ## 💃 Grand Entrance Order (Reception)
 
-The reception entrance block is **7:30–7:45 PM**, followed by the first dance at 7:45 PM. Each entry below is a separate group, in order:
+The reception timetable calls this a **15–20 minute** entrance-and-seating sequence after reception begins at 7:30 PM. Exact song cues are listed where provided:
 
-1. **peter walks in with Karin** (bride's parents); they are the first entrance group.
-2. **Tomas walks in with Radka** (groom's parents); they enter immediately after peter and Karin.
-3. **Emeric, Meda, Sofia, and Madison walk in together**; they enter immediately after Tomas and Radka.
-4. **Marie walks in with Gustavo** (Maid of Honor and Best Man); they enter immediately after Emeric, Meda, Sofia, and Madison.
-5. **Chris, Autumn, and Bara walk in together as a trio**; they enter immediately after Marie and Gustavo.
-6. **Erik walks in with Julia**; they enter immediately after Chris, Autumn, and Bara.
-7. **Max walks in with Julie and Dalia as a trio**; they enter immediately after Erik and Julia.
-8. **Adam walks in with Brittany** as the grand finale; they enter immediately after Max, Julie, and Dalia, through an arch formed by the wedding party.
+1. **peter walks in with Karin** (bride's parents), to "You Spin Me Round" by Dead or Alive; first group.
+2. **Tomas walks in with Radka** (groom's parents) immediately after Peter and Karin, to "Hej, Górale" (Silesian song).
+3. **Emeric, Meda, Sofia, and Madison walk in together** immediately after Tomas and Radka.
+4. **Marie walks in with Gustavo** (Maid of Honor and Best Man) immediately after the children.
+5. **Chris, Autumn, and Bara walk in together** immediately after Marie and Gustavo.
+6. **Erik walks in with Julia** immediately after Chris, Autumn, and Bara.
+7. **Max walks in with Julie and Dalia** immediately after Erik and Julia.
+8. **Adam walks in with Brittany** as the grand finale, immediately after Max, Julie, and Dalia, to "Give Me Everything" by Pitbull; the wedding party forms an arch.
 
 ---
 
@@ -179,15 +158,14 @@ The reception entrance block is **7:30–7:45 PM**, followed by the first dance 
 
 | Leg | Vehicle | Pick-up | Stops | Drop-off | Who |
 |-----|---------|---------|-------|----------|-----|
-| Morning (pre-bus) | Chris's personal car | 7:00 AM, Inn at Great Neck | Lush Hair Studio (8:30 AM hair appointment) | ~10:30 AM, Inn at Great Neck | Autumn + Chris — round trip for Autumn's hair appointment, back in time for the 12:00 PM bridesmaid pictures |
-| Morning (pre-bus) | Karin's personal car | ~8:00 AM, Inn at Great Neck | Lush Hair Studio (8:30 AM hair appointment) | ~10:30 AM, Inn at Great Neck | Karin drives herself, Brittany, and Omi to the same hair appointment |
-| Day-of (pre-ceremony → reception), first wave | Camelot Specialty Limo — 26-pax Limo Bus, driver Bill Townsend (646) 498-4454, Reservation #109521 | 1:00 PM, Inn at Great Neck | St John's Lutheran Church (2:00 PM ceremony) | Church | Gustavo, Chris, Erik, Max, Tomas — go ahead to get into position early |
-| Day-of (pre-ceremony → reception), second/main wave | Camelot Specialty Limo — same bus, same reservation | 1:15 PM, Inn at Great Neck | St John's Lutheran Church (2:00 PM ceremony) → Francis Lewis Park (photos) | 4:00 PM, Leonard's Palazzo | Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Meda, Sofia, Madison, Karin, Radka, Omi |
+| Morning (pre-bus) | Chris's personal car | 7:00 AM, Inn at Great Neck | Christie & Co. Luxury Hair Salon & Spa | Not listed | Autumn; Brittany is also listed at the 8:30 AM appointment there |
+| Morning (pre-bus) | Not specified | Not listed | Separate hair salon (name/location not specified) | Not listed | Karin and Omi |
+| Day-of (pre-ceremony → reception), first wave | Camelot Specialty Limo — 26-pax Limo Bus, driver Bill Townsend (646) 498-4454, Reservation #109521 | 1:00 PM, Inn at Great Neck | St John's Lutheran Church (2:00 PM ceremony) | Church | Gustavo, Chris, Erik, Max, Tomas — Tomas is also listed in the 1:15 PM wave; confirm |
+| Day-of (pre-ceremony → reception), second/main wave | Camelot Specialty Limo — same bus, same reservation | 1:15 PM, Inn at Great Neck | St John's Lutheran Church (2:00 PM ceremony) | Leonard's Palazzo | Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Meda, Sofia, Madison, Karin, Tomas, Radka, Omi |
 | Day-of (pre-ceremony, separate) | peter's personal car | 1:15 PM, Hotel | Church (peter parks the car) | Church | Adam + peter |
-| After the ~3:00 PM receiving line | Camelot Specialty Limo — same bus | St John's Lutheran Church | Francis Lewis Park (formal photos) | Francis Lewis Park | peter boards the bus at the church |
-| **3:30 PM** | Camelot Specialty Limo — same bus | Francis Lewis Park | Leonard's Palazzo | 4:00 PM, Leonard's Palazzo | peter rides with the bridal party, both sets of parents, and Omi |
+| Day-of (direct to church) | Eric & April Demery's personal car | Hotel; departure time not listed | Church | Church | Eric Demery, April Demery, Emeric |
+| **3:30 PM** | Camelot Specialty Limo — same bus | St John's Lutheran Church | Leonard's Palazzo | Arrival time not listed | Wedding party and listed family |
 | After the reception | peter's personal car | St John's Lutheran Church | — | — | Retrieve the car; responsible person and pickup time to be confirmed |
-| Day-of (own car, direct to church) | Eric & April Demery's personal car | Hotel | — | Church | Eric Demery, April Demery, Emeric — depart the hotel by 1:15 PM |
 | Post-reception | Camelot Limo Bus — contract extended for a 12:30 AM return run (same Reservation #109521, driver Bill Townsend) | Leonard's Palazzo | — | Inn at Great Neck | Everyone |
 
 ---
@@ -200,16 +178,16 @@ The reception entrance block is **7:30–7:45 PM**, followed by the first dance 
 | **Brittany (Bride)** | Marriage license, vows, bouquet, "something old/new/borrowed/blue" **[Suggested]**, wedding bands + wedding invitation (as photo props for the 12:00 PM bridesmaid pictures) | Bouquet is handed to Marie mid-ceremony — don't forget it in the limo! |
 | **Marie (Maid of Honor)** | Tissues/emergency kit **[Suggested]**, MOH speech notes, ready hands to hold Brittany's bouquet | She receives the bouquet and gives a toast later |
 | **Gustavo (Best Man)** | **The real wedding rings** (if using the decoy-ring approach), best man speech notes, tux picked up Thursday from Men's Wearhouse | Rings must reach the altar; speech is during the formal Speeches block |
-| **Dalia / Julia / Julie / Bara / Autumn (Bridesmaids)** | Bridesmaid dresses/shoes already at the dress code's "any color but white", flats for dancing **[Suggested]** | Comfort for the long day (ceremony → photos → dancing). Autumn additionally needs her 8:30 AM Lush Hair Studio appointment confirmed (with Brittany, Karin, and Omi) and must be back at the hotel by ~10:30 AM. |
-| **Chris / Erik / Max (Groomsmen)** | Black tux/suit (picked up Thursday from Men's Wearhouse), boutonnieres | Dress code compliance. Chris also drives Autumn to and from her 8:30 AM hair appointment (depart hotel 7:00 AM, back by ~10:30 AM). |
+| **Dalia / Julia / Julie / Bara / Autumn (Bridesmaids)** | Bridesmaid dresses/shoes (any color but white), flats for dancing **[Suggested]** | Autumn: 7:00 AM hotel pickup with Chris; 8:30 AM appointment at Christie & Co. with Brittany. |
+| **Chris / Erik / Max (Groomsmen)** | Black tux/suit (picked up Thursday from Men's Wearhouse), boutonnieres | Chris drives Autumn to Christie & Co. in Bayside for the 8:30 AM appointment; confirm how Chris and Erik return to their later processional entries after escorting Karin and Omi. |
 | **Meda & Sofia (Flower Girls)** | Flower petals/basket | Provided as part of the OG Floral order |
 | **Emeric (Ring Bearer)** | Ring pillow (decoy rings recommended), comfort item for a long day **[Suggested]**, the decorated wagon (acquired by Adam the week before) | Rings are the centerpiece of the ceremony |
 | **Madison (Daughter, flower girl role)** | Wagon (pulled by Emeric), comfort items/snacks for a 1-year-old **[Suggested]** | She rides in rather than walks |
-| **Karin (Mother of the Bride)** | **Bubbles for ~100 guests**, welcome speech notes, the crate of welcome-table/memorial-table items + wine-box favors (dropped off the week before) | She personally distributes bubbles before the recessional, and briefly steps out after the candle ceremony to arrange the venue |
-| **peter (Father of the Bride)** | His car (for driving Adam), welcome speech notes, ready to walk Brittany down the aisle | Teaches his regular Saturday class 9:30–10:30 AM that morning, then double duty — chauffeur + ceremony role + speech |
+| **Karin (Mother of the Bride)** | Bubbles for the guests, welcome speech notes, the crate of welcome-table/memorial-table items + wine-box favors (dropped off the week before) | Chris escorts her into the church; she hands bubbles out after the ceremony |
+| **peter (Father of the Bride)** | His car (for driving Adam), welcome speech notes, ready to walk Brittany down the aisle | Timetable lists teaching at 9:30 AM and 10:00 AM; end time is not specified |
 | **Tomas & Radka (Groom's Parents)** | Candle-lighting participation reminder, groom's parents' speech notes. Radka also brings an item in memory of her late brother Dominik for the memorial table. | Scheduled twice in the evening (ceremony + reception) |
-| **Omi (Grandmother of the Bride)** | Comfortable shoes for being escorted down the aisle **[Suggested]** | Walked in by Erik + Chris; also joins the 8:30 AM hair salon trip with Brittany and Karin |
-| **Eric & April Demery (Emeric's parents)** | Eric: prayer/reading notes; both: supervise Emeric before/after his duties | Eric delivers the prayer/reading right after the bouquet hand-off; April is the primary adult watching Emeric during that window |
+| **Omi (Grandmother of the Bride)** | Comfortable shoes for being escorted down the aisle **[Suggested]** | Escorted by Erik; has a separate 8:30 AM hair appointment with Karin (salon not specified) |
+| **Eric & April Demery (Emeric's parents)** | Both: supervise Emeric before/after his duties | They and Emeric drive themselves to the church; departure time is not listed |
 | **Uncle Danny** | Prayer/blessing notes | Drives himself directly to Leonard's Palazzo, arriving by 6:30 PM for cocktail hour — he is not part of the church ceremony |
 | **Host / Family (shared "must bring" list from the venue)** | Money box, guest book, welcome banner, signature-drink sign, cake topper, alphabetized place cards, wine-box favors, memorial table items | Per Leonard's Palazzo Function Sheet — **"no items can be left at LP when the reception ends,"** so assign someone to collect everything before 12:30 AM |
 

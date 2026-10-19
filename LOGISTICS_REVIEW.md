@@ -9,15 +9,15 @@ This document is the detailed backup for the warnings surfaced at the top of [MA
 
 | Check | Result |
 |-------|--------|
-| Church processional vs. reception grand entrance | **No conflict.** These are two different events at two different times/locations (2:00 PM church vs. ~7:30 PM reception). Several of the same people appear in both, which is expected and fine — they are sequential, not simultaneous. |
+| Church processional vs. reception grand entrance | **No conflict.** These are two different events at two different times/locations. The processional itself has unresolved transitions for Chris and Erik (each is assigned to escort someone and then enter again); confirm those transitions at rehearsal. |
 | Simultaneous "parent dances" (Brittany+Peter / Adam+Radka listed in the same timetable row) | **Not a conflict** — these are two different couples who can dance at the same moment if desired. **[Suggested]** For better guest experience/photos, run them one at a time (e.g., father–daughter first, then mother–son) rather than simultaneously. |
-| Eric Demery: delivers a prayer/reading **and** is father of the ring bearer | **Sequential, not simultaneous** — the reading happens right after Brittany hands her bouquet to Marie, well before the vows. No double-booking. **[Suggested]** April Demery is the primary adult watching Emeric during that window since Eric is occupied with the reading. (Note: Omi is escorted down the aisle by **Erik**, Brittany's brother and a groomsman — a different person from Eric Demery, Emeric's father.) |
+| Chris: escorts Karin and later enters with Autumn and Bara; Erik: escorts Omi and later enters with Julia | **Unresolved processional transitions** — the Oct 18 church timetable lists both duties for each person but does not say how either returns to the processional. Confirm at rehearsal. (Erik is Brittany's brother and a groomsman; Eric Demery is Emeric's father.) |
 | Peter: walks Brittany down the aisle, participates in candle-lighting, gives a welcome toast, drives Adam to the church | All at different times across the day — no literal conflict, but it's a high-responsibility day for one person. **[Suggested]** Confirm Peter has his own quiet buffer time and doesn't also need to manage parking/other logistics. |
 | "Welcome speech/toast" (Peter & Karin) vs. "Brittany's parents speech" (Peter & Karin) later in Speeches | **Intentional, not a duplicate** — the welcome toast is a brief 1–2 minute greeting before dinner; the full parents' speech happens later during the formal Speeches segment. See resolved Urgent #3. |
 | Flower girls (Meda, Sofia) + Madison's wagon entrance, both at church and reception | Two different events (processional vs. grand entrance), not concurrent — no conflict. |
-| Karin: candle-lighting ceremony participant **and** the person distributing bubbles to 100 guests immediately after | Sequential (candle-lighting finishes, then bubbles are handed out before the recessional) — tight but not simultaneous. **[Suggested]** Pre-stage the bubble bin at the back of the church with a helper (e.g., a bridesmaid) so Karin isn't both lighting a candle and physically handing out 100 bubble wands solo in a few minutes. |
+| Karin: candle-lighting participant **and** bubble handout after the ceremony | Sequential in the timetable. **[Suggested]** Pre-stage the bubbles with a helper so the handout can happen smoothly after the ceremony. |
 
-**Conclusion:** No one is formally scheduled to be in two physical places at the same literal moment. The main risks are **tight sequencing** for a few individuals (Eric Demery, Karin, Peter) rather than true conflicts — call these out to those individuals directly.
+**Conclusion:** The Oct 18 timetable contains no confirmed simultaneous assignments in separate places, but Chris and Erik each have an unresolved processional transition. Tomas is also listed on both the 1:00 PM and 1:15 PM bus waves. Confirm all three items with the couple/organizer before treating the sequence as settled.
 
 ---
 
@@ -47,25 +47,26 @@ Every item identified below is cross-referenced to the source document that impl
 
 | Leg | Status |
 |-----|--------|
-| Autumn → hair salon → hotel (8:30–~10:45 AM) | ✅ Documented — Chris drives Autumn to her 9:00 AM Lush Hair Studio appointment and back in his personal car, well clear of the 1:00 PM Camelot bus call time. |
-| Hotel → Church → Photos → Venue (1:00–4:00 PM) | ✅ Documented and paid (Camelot Limo Bus, Reservation #109521, $1,350 paid in full) |
+| Autumn → hair appointment | ✅ The Oct 18 timetable lists Chris picking Autumn up at 7:00 AM and an 8:30 AM appointment at Christie & Co. in Bayside. It does not specify a return trip or time. |
+| Karin and Omi → separate hair appointment | ⚠️ Both are listed for an 8:30 AM appointment, but the salon and transportation are not specified. |
+| Hotel → Church → Leonard's Palazzo | ✅ The Oct 18 timetable lists Camelot bus waves at 1:00 PM and 1:15 PM and a 3:30 PM departure from the church to Leonard's Palazzo. It does not list a photo stop or arrival time. Tomas is listed in both bus waves; confirm his departure. |
 | Adam + Peter, hotel → church | ✅ Documented (Peter's personal car) |
 | Peter's car pickup after reception | ⚠️ The car remains at the church, but the responsible person and pickup time are not specified; assign both. |
 | Madison, Omi → church | ✅ Documented — both ride the Camelot Limo Bus (Madison travels with her mom Brittany; Omi rides with the rest of the bridal party). |
-| Eric Demery, April Demery, Emeric → church | ✅ Documented — they drive their own car directly to the church, departing the hotel by 1:15 PM. |
+| Eric Demery, April Demery, Emeric → church | ✅ They are listed as driving themselves directly to the church; the departure time is not specified. |
 | Uncle Danny → reception | ✅ Drives himself directly to Leonard's Palazzo, arriving by 6:30 PM for cocktail hour. |
 | Venue → Hotel (post-reception, after 12:30 AM) | ✅ **Resolved.** The Camelot contract (Reservation #109521) has been extended to cover a 12:30 AM return run, Leonard's Palazzo → Inn at Great Neck, same driver (Bill Townsend). |
-| Friday rehearsal → rehearsal dinner → back to hotel | ⚠️ **No Camelot bus coverage on Friday at all** — the $1,350 contract only covers Saturday 1:00–4:00 PM. Rehearsal attendees will need their own cars/rideshare on Friday evening. Not a safety-critical gap (no late-night open bar), but worth planning for a group traveling between the church and a dinner venue. |
+| Friday rehearsal → Zum Stammtisch → back to hotel | ⚠️ Dinner begins at 6:00 PM at Zum Stammtisch; the timetable lists a specified group returning to the Inn at Great Neck by 8:00 PM but does not document the travel method or the dinner-to-hotel pickup plan. Confirm transportation. |
 
 ---
 
 ## 4. Timing / Pacing Flags
 
-- **Photo / transportation sequence needs reconfirmation.** The plan keeps the scheduled 3:30 PM bus departure for Leonard's Palazzo and removes the overlapping inside-church photo stop; the exact bus pickup point must be confirmed with Camelot. Formal photos must follow the ~3:00 PM receiving line and finish before the bus leaves. The available photo window may be shorter than the **45 minutes** Lawrence Photography previously confirmed as sufficient. Confirm the exact photo start/end with Lawrence Photography and pickup point with Camelot before treating this as settled.
+- **Church-to-venue sequence:** The Oct 18 timetable lists the bus leaving the church for Leonard's Palazzo at 3:30 PM. It does not include a Francis Lewis Park stop or specify an arrival time. Confirm the church pickup point with Camelot; the 5:30 PM photos are listed at Leonard's Palazzo.
 - **Dinner is late.** Entrées aren't served until **10:15 PM**, with first course at 8:00 PM and second course/salad at 8:45–9:00 PM — over a 2-hour gap between courses while speeches run. **[Suggested]** Request kids' meals be served earlier (per the "Kids Meals Available Upon Request" note) so Meda, Sofia, Madison, and Emeric aren't waiting until 10:15 PM to eat a full meal.
 - **Bouquet toss, garter toss, anniversary dance, and last dance are confirmed** for ~11:00 PM, between cake cutting and the La Dolce Tavola dessert hour — the DJ (Epic Entertainment) has these built into the reception run sheet.
 - **Hotel cutoff date (10/7/2026) has already passed** relative to the current date — see Urgent #1 in the master timetable. Confirm final room count and guarantee charge with the Inn at Great Neck immediately.
-- **The Friday rehearsal day was not in the original source files** (CSVs, PDFs, website don't mention one). The [Friday rehearsal-day plan in the master timetable](./MASTER_TIMETABLE.md#-friday-november-6-2026--rehearsal-day) fills that gap using standard wedding practice: a 5:00–6:00 PM ceremony walkthrough at St John's Lutheran Church, followed by a rehearsal dinner in Leonard's Palazzo's private dining room (6:30–8:30 PM, a separate Friday-evening reservation from Saturday's reception), hosted by the groom's parents (Tomas & Radka), with the full wedding party + immediate family attending.
+- **Friday plan:** The Oct 18 timetable lists a 4:00 PM ceremony rehearsal and 6:00 PM dinner at Zum Stammtisch, with a specified group returning to the hotel by 8:00 PM. The travel method between the church, dinner, and hotel is not specified.
 
 ---
 

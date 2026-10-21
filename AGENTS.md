@@ -22,6 +22,10 @@ Read the relevant source records before changing names, times, roles, vendor det
 
 Run generators only when needed: they overwrite generated files. Keep edits to generated HTML in the generator as well, or they will be lost on regeneration.
 
+## Timetable Updates (repeatable process)
+
+When the timetable CSVs change, follow [UPDATE_WORKFLOW.md](./UPDATE_WORKFLOW.md). In short: edit `generate_cards.py` and `MASTER_TIMETABLE.md`, run `./build.sh` (regenerates all cards, then runs `audit_cards.py`, which checks every CSV cell appears on that person's cards), and fix any `GAP`/`UNMAPPED`/`BROKEN` lines until it exits 0. `python3 audit_cards.py --dump <name>` shows one person's full CSV slice.
+
 ## Accuracy and Privacy
 
 - Treat contractual/source-record details as stronger evidence than inferred planning suggestions. Preserve labels such as `[Suggested]` and clearly identify assumptions; do not turn a recommendation into a confirmed arrangement.

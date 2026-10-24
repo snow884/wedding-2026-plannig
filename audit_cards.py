@@ -133,6 +133,29 @@ def check_links():
     return bad
 
 
+def check_time_groups():
+    """No section (<h4> + <ul>) may hold actions that are 15+ minutes apart."""
+    sys.path.insert(0, HERE)
+    import generate_cards as gc
+    bad = []
+    for name in sorted(os.listdir(CARDS)):
+        if not re.match(r"[a-z]+_day[12]\.html$", name):
+            continue
+        with open(os.path.join(CARDS, name), encoding="utf-8") as fh:
+            body = fh.read()
+        for heading, ul in re.findall(r"<h4>(.*?)</h4>\s*<ul>(.*?)</ul>", body, re.S):
+            if heading.startswith(gc.UNTIMED_SECTIONS):
+                continue
+            times = []
+            for li in re.findall(r"<li>(.*?)</li>", ul, re.S):
+                minutes = gc.item_minutes(html.unescape(li), None, None)
+                if minutes is not None:
+                    times.append((minutes, li))
+            if times and max(t for t, _ in times) - min(t for t, _ in times) >= gc.MAX_GROUP_MINUTES:
+                bad.append((name, html.unescape(heading)))
+    return bad
+
+
 def main():
     if "--dump" in sys.argv:
         args = [a for a in sys.argv[2:] if not a.startswith("-")]
@@ -158,6 +181,9 @@ def main():
                 gaps.append((slug, key, label, cell, rule[1]))
 
     broken = check_links()
+    wide = check_time_groups()
+    for w in wide:
+        print(f"WIDE     {w[0]} section '{w[1]}' spans 15+ minutes")
     print(f"CSV columns without cards (not audited): {', '.join(sorted(set(no_card))) or 'none'}")
     for g in gaps:
         print(f"GAP      {g[0]:9} [{g[1]}|{g[2]}] {g[3][:80]}   (card lacks /{g[4]}/)")
@@ -165,8 +191,8 @@ def main():
         print(f"UNMAPPED {u[0]:9} [{u[1]}|{u[2]}] {u[3][:80]}")
     for b in broken:
         print(f"BROKEN   {b[0]} -> {b[1]}")
-    print(f"\n{len(gaps)} gap(s), {len(unmapped)} unmapped cell(s), {len(broken)} broken link(s)")
-    return 1 if gaps or broken else (2 if unmapped else 0)
+    print(f"\n{len(gaps)} gap(s), {len(unmapped)} unmapped cell(s), {len(broken)} broken link(s), {len(wide)} over-wide section(s)")
+    return 1 if gaps or broken or wide else (2 if unmapped else 0)
 
 
 if __name__ == "__main__":

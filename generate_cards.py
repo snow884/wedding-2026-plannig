@@ -1405,6 +1405,105 @@ def fill_source_gaps():
 
 fill_source_gaps()
 
+# ---------------------------------------------------------------------------
+# Time grouping: no section on a card may contain actions that are 15 minutes
+# or more apart. Each person's day is flattened, ordered by time, and re-split.
+# ---------------------------------------------------------------------------
+MAX_GROUP_MINUTES = 15
+UNTIMED_SECTIONS = ("Thursday", "Before the weekend")
+_TIME_RE = re.compile(r"(\d{1,2}):(\d\d)\s*(AM|PM)?(?:\s*[–-]\s*(\d{1,2}):(\d\d)\s*(AM|PM))?")
+# Relative cues that carry no clock time (order matters; checked after a leading time).
+_CUES = [
+    (r"welcome toast", 19 * 60 + 55),
+    (r"after the parent dances", 19 * 60 + 55),
+    (r"first dance|parent dance", 19 * 60 + 50),
+    (r"after the walk-in|forms an arch", 19 * 60 + 30),
+    (r"^eat dinner", 20 * 60),
+    (r"^open dancing", 23 * 60),
+]
+
+
+def _to_minutes(match):
+    hour, minute = int(match.group(1)), int(match.group(2))
+    marker = match.group(3) or match.group(6)
+    if marker == "PM" and hour != 12:
+        hour += 12
+    elif marker == "AM" and hour == 12:
+        hour = 0
+    total = hour * 60 + minute
+    return total + 24 * 60 if marker == "AM" and hour < 5 else total
+
+
+def item_minutes(text, heading_minutes, previous):
+    """Minute-of-day an action happens: leading time, relative cue, embedded time,
+    section time, then the previous action's time."""
+    plain = re.sub(r"<[^>]+>", "", text).strip()
+    lead = re.match(r"^~?" + _TIME_RE.pattern, plain)
+    if lead:
+        return _to_minutes(lead)
+    for cue, minutes in _CUES:
+        if re.search(cue, plain, re.I):
+            return minutes
+    embedded = _TIME_RE.search(plain)
+    if embedded:
+        return _to_minutes(embedded)
+    if heading_minutes is not None:
+        return max(heading_minutes, previous or 0)
+    return previous
+
+
+def _clock(minutes):
+    minutes %= 24 * 60
+    hour, minute = divmod(minutes, 60)
+    return f"{(hour % 12) or 12}:{minute:02d} {'AM' if hour < 12 else 'PM'}"
+
+
+def _split_compound(item):
+    """Splits a bullet that bundles the 8:00 PM return trip with an earlier action."""
+    m = re.search(r"(?:\.\s+|;\s+)return to the Inn at Great Neck by 8:00 PM", item, re.I)
+    if not m:
+        return [item]
+    head = item[:m.start()].rstrip(". ;") + "."
+    tail = item[m.end():]
+    return [head, "8:00 PM: return to the Inn at Great Neck" + (tail if tail.strip() else ".")]
+
+
+def regroup_by_time(duties):
+    flat = []
+    for order, (heading, items) in enumerate(duties):
+        hm = _TIME_RE.search(heading)
+        heading_minutes = _to_minutes(hm) if hm else None
+        untimed = heading.startswith(UNTIMED_SECTIONS)
+        previous = None
+        for raw in items:
+            for item in _split_compound(raw):
+                if untimed:
+                    minutes = -100000 + order * 1000
+                else:
+                    minutes = item_minutes(item, heading_minutes, previous)
+                    if minutes is None:
+                        minutes = previous if previous is not None else 0
+                previous = minutes
+                flat.append((minutes, len(flat), heading, item))
+    flat.sort(key=lambda row: (row[0], row[1]))
+    groups, start = [], None
+    for minutes, _, heading, item in flat:
+        if start is None or minutes - start >= MAX_GROUP_MINUTES:
+            start = minutes
+            if minutes < 0 or re.search(r"\b" + re.escape(_clock(minutes).split(" ")[0]) + r"\b", heading) \
+                    or re.fullmatch(r"\d{1,2}:\d\d [AP]M", heading):
+                label = heading
+            else:
+                label = f"{heading} — {_clock(minutes)}"
+            groups.append((label, []))
+        groups[-1][1].append(item)
+    duties[:] = groups
+
+
+for _person in PEOPLE:
+    regroup_by_time(_person["rehearsal"])
+    regroup_by_time(_person["duties"])
+
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)

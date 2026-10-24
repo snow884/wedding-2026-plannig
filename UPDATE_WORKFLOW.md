@@ -146,3 +146,14 @@ python3 generate_cards.py        # regenerate only
 - [ ] Changed cards and the master plan opened and read
 - [ ] Stale-text sweep clean
 - [ ] Open ambiguities listed to the couple
+
+## 15-minute grouping rule
+
+No section on a card (one heading and its bullets) may hold actions 15 or more minutes apart.
+`regroup_by_time()` in `generate_cards.py` runs after `fill_source_gaps()`. It orders each card's
+actions by time and starts a new section (heading plus ` — H:MM AM/PM`) at every 15-minute break.
+
+- An action's time is a leading clock time, then a relative cue in `_CUES` (toast, first dance, dinner, open dancing), then an embedded time, then the section time.
+- Cue times are assumptions because the CSVs give no clock time. Change them in `_CUES`.
+- To split a combined bullet, add the split in `_split_compound`, or write it as separate bullets.
+- `audit_cards.py` reports `WIDE` and exits 1 if any section spans 15+ minutes; `./build.sh` runs it.

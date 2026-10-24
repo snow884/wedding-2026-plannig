@@ -45,7 +45,7 @@ PEOPLE = [
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party (apps + drinks).",
                 "~7:00 PM: formal portraits.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Gustavo (Best Man), "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Gustavo (Best Man) to \"Rompe Rompe\" by Daddy Yankee, "
                 "immediately after Emeric, Meda, Sofia, and Madison.",
                 "9:00–10:15 PM Formal Speeches segment (after the second course and before entrées): "
                 "deliver your Maid of Honor speech after Peter and Karin's parents' speech; exact minute is not specified.",
@@ -88,7 +88,7 @@ PEOPLE = [
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
                 "~7:00 PM: formal portraits.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Marie (Maid of Honor), "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Marie (Maid of Honor) to \"Rompe Rompe\" by Daddy Yankee, "
                 "immediately after Emeric, Meda, Sofia, and Madison.",
                 "9:00–10:15 PM Formal Speeches segment (after the second course and before entrées): "
                 "deliver your Best Man speech after Marie's Maid of Honor speech; exact minute is not specified.",
@@ -1021,6 +1021,7 @@ SATURDAY_ROWS = [
     ("Church payments and cleanup", "Adam hands the $500 cash donation envelope to the pastor and the $200 envelope to the musician who played the bridal march; Karin uses a broom to clean up the flower petals.", "Adam, Karin", "Church"),
     ("After the rest of the party exits", "Everyone else forms the bubble-send-off line outside.", "Everyone except Adam &amp; Brittany", "Church exterior"),
     ("3:30 PM", "Take the party bus from the church back to Leonard's Palazzo.", "Wedding party and listed family", "St John's Lutheran Church → Leonard's Palazzo"),
+    ("3:45 PM", "The bus stops at Francis Lewis Park (3rd Ave, Whitestone, NY 11357) for pictures by the photographer.", "Wedding party and listed family", "Francis Lewis Park, Whitestone"),
     ("Arrival time not specified", "The party bus arrives at Leonard's Palazzo; the timetable gives the 3:30 PM church departure but no arrival time.", "Wedding party and listed family", "Leonard's Palazzo"),
     ("4:30 PM", "Bridal suite becomes available for the wedding party.", "Bridal party", "Leonard's Palazzo"),
     ("4:30–6:30 PM", "Suite Set — appetizers &amp; beverage service.", "Host party", "Private suite, Leonard's Palazzo"),
@@ -1075,13 +1076,14 @@ PROCESSIONAL_ORDER = [
     "After the ceremony: Karin hands bubbles to everyone; the wedding party forms a line outside.",
     "At the recessional, everyone exits before Adam and Brittany, who leave last together.",
     "At 3:30 PM: the party bus departs from the church for Leonard's Palazzo.",
+    "At 3:45 PM: the bus stops at Francis Lewis Park (3rd Ave, Whitestone, NY 11357) for pictures by the photographer.",
 ]
 
 GRAND_ENTRANCE_ORDER = [
     "The 15–20 minute entrance-and-seating sequence follows cocktail hour. Group 1: Peter and Karin (bride's parents) enter to \"You Spin Me Round\" by Dead or Alive.",
     "Group 2: Tomas and Radka (groom's parents) enter immediately after Peter and Karin to \"Hej, Górale\" (Silesian song).",
     "Group 3: Emeric, Meda, Sofia, and Madison enter together immediately after Tomas and Radka.",
-    "Group 4: Marie (Maid of Honor) and Gustavo (Best Man) enter together immediately after Emeric, Meda, Sofia, and Madison.",
+    "Group 4: Marie (Maid of Honor) and Gustavo (Best Man) enter together to \"Rompe Rompe\" by Daddy Yankee, immediately after Emeric, Meda, Sofia, and Madison.",
     "Group 5: Chris, Autumn, and Bara enter together immediately after Marie and Gustavo.",
     "Group 6: Erik and Julia enter together immediately after Chris, Autumn, and Bara.",
     "Group 7: Max, Julie, and Dalia enter together immediately after Erik and Julia.",
@@ -1096,6 +1098,7 @@ TRANSPORT_ROWS = [
     ("Day-of (pre-ceremony, separate)", "peter's personal car", "1:15 PM, Hotel", "Church (peter parks the car)", "Church", "Adam + peter"),
     ("Departure time not listed", "Eric &amp; April Demery's personal car", "Hotel", "Church", "Church", "Emeric, Eric Demery, April Demery"),
     ("3:30 PM", "Camelot Specialty Limo — same bus", "St John's Lutheran Church", "Leonard's Palazzo", "Leonard's Palazzo", "Wedding party and listed family; the source lists departure, not an arrival time"),
+    ("3:45 PM", "Camelot Specialty Limo — same bus", "St John's Lutheran Church", "Francis Lewis Park (3rd Ave, Whitestone, NY 11357)", "Photographer's pictures, then on to Leonard's Palazzo", "Wedding party and listed family"),
     ("After the reception", "peter's personal car", "St John's Lutheran Church", "—", "—", "Retrieve the car; responsible person and pickup time to be confirmed"),
     ("Post-reception", "Camelot Limo Bus — extended 12:30 AM return run", "Leonard's Palazzo", "—", "Inn at Great Neck", "Everyone"),
 ]
@@ -1380,6 +1383,8 @@ def fill_source_gaps():
         new = [(t, None) for t in reception]
         if not has(r"3:30"):
             new.append(("3:30 PM: leave the church on the party bus to Leonard's Palazzo.", 15 * 60 + 30))
+        if not has(r"francis lewis"):
+            new.append(("3:45 PM: the bus stops at Francis Lewis Park (3rd Ave, Whitestone, NY 11357) for pictures by the photographer.", 15 * 60 + 45))
         if not has(r"5:30"):
             new.append(("5:30 PM: pictures in front of Leonard's Palazzo.", 17 * 60 + 30))
         if slug in SUITE_GROUP and not has(r"suite"):

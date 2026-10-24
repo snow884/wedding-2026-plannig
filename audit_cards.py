@@ -42,6 +42,8 @@ CELL_RULES = [
     (r"take party bus to church|adam \+ peter take car", r"1:00|1:15"),
     (r"arrive to church", r"1:45"),
     (r"back to leonards", r"3:30"),
+    (r"francis lewis", r"francis lewis"),
+    (r"rompe rompe", r"rompe rompe"),
     (r"bridal suite becomes", r"4:30"),
     (r"front of leonards", r"5:30"),
     (r"cocktai", r"cocktail"),

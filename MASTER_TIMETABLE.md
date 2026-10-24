@@ -79,7 +79,8 @@
 | Ring exchange | Emeric brings the rings to the altar; Adam and Brittany exchange rings. | Adam, Brittany, Emeric | Church |
 | Candle-lighting | Peter, Karin, Tomas, and Radka light individual candles from the Christ candle; Adam and Brittany light the unity candle with their parents holding their hands. | Adam, Brittany, Peter, Karin, Tomas, Radka | Church |
 | After the ceremony | Karin hands bubbles to everyone. The wedding party forms a line outside; Adam and Brittany exit last together, with Marie holding Brittany's dress as they exit. | Wedding party and guests; Marie | Church and exterior |
-| **3:30 PM** | Party bus departs from the church for Leonard's Palazzo. The timetable does not list a photo stop before this departure. | Wedding party and listed family | St John's Lutheran Church → Leonard's Palazzo |
+| **3:30 PM** | Party bus departs from the church for Leonard's Palazzo.  | Wedding party and listed family | St John's Lutheran Church → Leonard's Palazzo |
+| **3:45 PM** | The bus stops at Francis Lewis Park (3rd Ave, Whitestone, NY 11357) for pictures by the photographer. | Wedding party and listed family | Francis Lewis Park, Whitestone |
 | Arrival time not specified | The party bus arrives at Leonard's Palazzo; the timetable gives the 3:30 PM church departure but no arrival time. | Wedding party and listed family | Leonard's Palazzo |
 | **4:30 PM** | Bridal suite becomes available for the wedding party. | Bridal party | Leonard's Palazzo |
 | **4:30–6:30 PM** | Suite Set — appetizers & beverage service in the separate wedding suite | Adam, Brittany, Marie, Dalia, Julia, Julie, Bara, Autumn, Gustavo, Chris, Erik, Max | Private suite, Leonard's Palazzo |
@@ -146,7 +147,7 @@ The reception timetable calls this a **15–20 minute** entrance-and-seating seq
 1. **peter walks in with Karin** (bride's parents), to "You Spin Me Round" by Dead or Alive; first group.
 2. **Tomas walks in with Radka** (groom's parents) immediately after Peter and Karin, to "Hej, Górale" (Silesian song).
 3. **Emeric, Meda, Sofia, and Madison walk in together** immediately after Tomas and Radka.
-4. **Marie walks in with Gustavo** (Maid of Honor and Best Man) immediately after the children.
+4. **Marie walks in with Gustavo** (Maid of Honor and Best Man) to "Rompe Rompe" by Daddy Yankee, immediately after the children.
 5. **Chris, Autumn, and Bara walk in together** immediately after Marie and Gustavo.
 6. **Erik walks in with Julia** immediately after Chris, Autumn, and Bara.
 7. **Max walks in with Julie and Dalia** immediately after Erik and Julia.
@@ -165,6 +166,7 @@ The reception timetable calls this a **15–20 minute** entrance-and-seating seq
 | Day-of (pre-ceremony, separate) | peter's personal car | 1:15 PM, Hotel | Church (peter parks the car) | Church | Adam + peter |
 | Day-of (direct to church) | Eric & April Demery's personal car | Hotel; departure time not listed | Church | Church | Eric Demery, April Demery, Emeric |
 | **3:30 PM** | Camelot Specialty Limo — same bus | St John's Lutheran Church | Leonard's Palazzo | Arrival time not listed | Wedding party and listed family |
+| **3:45 PM** | Camelot Specialty Limo — same bus | St John's Lutheran Church | Francis Lewis Park (3rd Ave, Whitestone, NY 11357) | Photographer's pictures, then on to Leonard's Palazzo | Wedding party and listed family |
 | After the reception | peter's personal car | St John's Lutheran Church | — | — | Retrieve the car; responsible person and pickup time to be confirmed |
 | Post-reception | Camelot Limo Bus — contract extended for a 12:30 AM return run (same Reservation #109521, driver Bill Townsend) | Leonard's Palazzo | — | Inn at Great Neck | Everyone |
 

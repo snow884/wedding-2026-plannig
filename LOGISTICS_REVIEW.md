@@ -62,7 +62,7 @@ Every item identified below is cross-referenced to the source document that impl
 
 ## 4. Timing / Pacing Flags
 
-- **Church-to-venue sequence:** The Oct 18 timetable lists the bus leaving the church for Leonard's Palazzo at 3:30 PM. It does not include a Francis Lewis Park stop or specify an arrival time. Confirm the church pickup point with Camelot; the 5:30 PM photos are listed at Leonard's Palazzo.
+- **Church-to-venue sequence:** The Oct 18 timetable lists the bus leaving the church for Leonard's Palazzo at 3:30 PM. The Oct 23 timetable adds a 3:45 PM bus stop at Francis Lewis Park (3rd Ave, Whitestone, NY 11357) for photographer pictures (everyone on the bus list); no arrival time at Leonard's Palazzo is specified, and the stop's duration is not given. Confirm the church pickup point with Camelot; the 5:30 PM photos are listed at Leonard's Palazzo.
 - **Dinner is late.** Entrées aren't served until **10:15 PM**, with first course at 8:00 PM and second course/salad at 8:45–9:00 PM — over a 2-hour gap between courses while speeches run. **[Suggested]** Request kids' meals be served earlier (per the "Kids Meals Available Upon Request" note) so Meda, Sofia, Madison, and Emeric aren't waiting until 10:15 PM to eat a full meal.
 - **Bouquet toss, garter toss, anniversary dance, and last dance are confirmed** for ~11:00 PM, between cake cutting and the La Dolce Tavola dessert hour — the DJ (Epic Entertainment) has these built into the reception run sheet.
 - **Hotel cutoff date (10/7/2026) has already passed** relative to the current date — see Urgent #1 in the master timetable. Confirm final room count and guarantee charge with the Inn at Great Neck immediately.

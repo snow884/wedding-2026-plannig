@@ -109,7 +109,7 @@ generator and the Markdown plan.
 - CSV headers differ from card names: Brittney = Brittany, Petr = Peter (slug
   `peter`), Sophia = Sofia. Cells also contain misspellings ("Emerik", "Omni",
   "Cocktain", "rehersal"). The audit's `ALIAS` and rule regexes absorb these.
-- Some CSV columns have no card (listed by the audit under "without cards"). Add
+- Some CSV columns have no card (Omi, Eric Demery and April Demery are confirmed as not needing cards; the audit lists them as "intentionally without cards"). Add
   a card via a new `PEOPLE` entry if one is wanted; remove the name from
   `NO_CARD` in `audit_cards.py` at the same time.
 - Overlaps that the source itself contains must be **flagged on the plan, not
@@ -157,3 +157,7 @@ actions by time and starts a new section (heading plus ` — H:MM AM/PM`) at eve
 - Cue times are assumptions because the CSVs give no clock time. Change them in `_CUES`.
 - To split a combined bullet, add the split in `_split_compound`, or write it as separate bullets.
 - `audit_cards.py` reports `WIDE` and exits 1 if any section spans 15+ minutes; `./build.sh` runs it.
+
+## Master-plan coverage check
+
+`audit_cards.py` also verifies that every distinct CSV cell appears in **both** `MASTER_TIMETABLE.md` and `cards/master_timetable.html`. Master wording is group-level, so `MASTER_RULES` (cell regex → master-row regex) overrides the card rule where wording differs; otherwise the card rule is reused. Missing items print as `MASTER <person> [...] (md|html master lacks /regex/)` and make the audit exit 1. For a new CSV cell: add a `CELL_RULES` entry (card), add a `MASTER_RULES` entry if the master wording differs, then add the row to `FRIDAY_ROWS`/`SATURDAY_ROWS` (or the week-before / must-bring lists) in `generate_cards.py` **and** to `MASTER_TIMETABLE.md`.

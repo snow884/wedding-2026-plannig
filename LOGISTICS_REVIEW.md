@@ -17,7 +17,7 @@ This document is the detailed backup for the warnings surfaced at the top of [MA
 | Flower girls (Meda, Sofia) + Madison's wagon entrance, both at church and reception | Two different events (processional vs. grand entrance), not concurrent — no conflict. |
 | Karin: candle-lighting participant **and** bubble handout after the ceremony | Sequential in the timetable. **[Suggested]** Pre-stage the bubbles with a helper so the handout can happen smoothly after the ceremony. |
 
-**Conclusion:** The Oct 18 timetable contains no confirmed simultaneous assignments in separate places, but Chris and Erik each have an unresolved processional transition. Tomas is also listed on both the 1:00 PM and 1:15 PM bus waves. Confirm all three items with the couple/organizer before treating the sequence as settled.
+**Conclusion:** The Oct 18 timetable contains no confirmed simultaneous assignments in separate places, but Chris and Erik each have an unresolved processional transition. Tomas is also listed on both the 1:00 PM and 1:15 PM bus waves (Gustavo rides in Peter's car with Adam). Confirm all three items with the couple/organizer before treating the sequence as settled.
 
 ---
 
@@ -74,3 +74,6 @@ Every item identified below is cross-referenced to the source document that impl
 
 - `rsvp.csv` confirms **Brandon King** and the **Unfried family** are attending the *church ceremony only*, not the evening reception — make sure the receiving line / church greeters are aware some guests won't be at Leonard's Palazzo.
 - Several regrets (Jessy & Samuel Mathew, Glenn & Janet Dietrich, Helen Lehtinen, Rhonda J. Hoehn, the Leitner family) reduce the evening headcount slightly below the Function Sheet's "100 (Act)" guest estimate — worth a quick final-count confirmation with Leonard's Palazzo ahead of the 10/24/2026 "Final Guest Balance" payment.
+
+## Oct 27 additions
+- Peter's Saturday drives are now: 7:30 AM Omi's house (teaching), 11:30 AM pick up Omi and drive her to the hotel, 12:00 PM pick up Karin's cousin and family (locations unspecified), 1:00 PM pick up Adam at the Inn, 1:15 PM drive Adam + Gustavo to church. The 12:00–1:00 PM cousin pick-up leaves little slack; confirm locations and that the group fits in Peter's car for the later trips. Peter's teaching listed through 11:00 AM overlaps the 11:30 AM pick-up only if class runs late.

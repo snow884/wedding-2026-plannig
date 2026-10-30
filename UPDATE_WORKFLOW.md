@@ -161,3 +161,10 @@ actions by time and starts a new section (heading plus ` — H:MM AM/PM`) at eve
 ## Master-plan coverage check
 
 `audit_cards.py` also verifies that every distinct CSV cell appears in **both** `MASTER_TIMETABLE.md` and `cards/master_timetable.html`. Master wording is group-level, so `MASTER_RULES` (cell regex → master-row regex) overrides the card rule where wording differs; otherwise the card rule is reused. Missing items print as `MASTER <person> [...] (md|html master lacks /regex/)` and make the audit exit 1. For a new CSV cell: add a `CELL_RULES` entry (card), add a `MASTER_RULES` entry if the master wording differs, then add the row to `FRIDAY_ROWS`/`SATURDAY_ROWS` (or the week-before / must-bring lists) in `generate_cards.py` **and** to `MASTER_TIMETABLE.md`.
+
+## "Don't forget" items (must-bring table)
+Every CSV cell that says *bring / pack / pay / donate / receive / hold* is a must-not-forget item for that person. On each update:
+1. Search the CSVs for those verbs (`python3 audit_cards.py --dump <name>`) and list the items per person.
+2. Put each item on the person's card (`PEOPLE`, the `reminder`/`rehearsal_reminder` text or a timed bullet).
+3. Add it to the person's row in `MUST_BRING_ROWS` (generate_cards.py) **and** to the must-bring table in `MASTER_TIMETABLE.md`, with amounts and times (e.g. Adam: $500 pastor + $200 musician envelopes; Radka: food, formula, protective headphones, toys, change of clothes for Madison, Fri 2:00 PM and Sat 7:30 AM).
+4. Add the key phrases to `MUST_BRING_CHECKS` in `audit_cards.py`; the audit fails (`MUSTBRING`) if a phrase is missing from the row in either master format.

@@ -48,7 +48,7 @@ CELL_RULES = [
     (r"return to inn", r"8:00"),
     (r"flower delivery", r"flower|florist"),
     (r"pictures of groomsmen", r"groomsmen"),
-    (r"arrive in hotel", r"10:00"),
+    (r"arrive in hotel", r"11:40"),
     (r"pictures of bridesmaids", r"12:00"),
     (r"take party bus to church|take car to church", r"1:00|1:15"),
     (r"drive to zum stammtisch", r"drive to zum stammtisch"),
@@ -106,6 +106,11 @@ CELL_RULES = [
     (r"dance", r"dance"),
     (r"speech|toast", r"speech|toast"),
     (r"bouquet", r"bouquet"),
+    (r"kdyby byla morava", r"kdyby byla morava.*0:26"),
+    (r"dai dai", r"dai dai.*shakira"),
+    (r"i.ve gotta feeling", r"i.ve gotta feeling.*1:29"),
+    (r"lets get it started", r"let.?s get it started.*black eyed peas"),
+    (r"gasolina", r"gasolina.*daddy yankee"),
     (r"walks? in|enter|seated|escort", r"walk|enter|escort|seated"),
 ]
 
@@ -183,6 +188,28 @@ def check_time_groups():
     return bad
 
 
+def check_event_hours():
+    """Every person card and both master plans must state the venue event hours."""
+    required = (r"12:30 AM EST", r"6:30–7:30 PM EST")
+    paths = [
+        os.path.join(CARDS, name)
+        for name in sorted(os.listdir(CARDS))
+        if re.fullmatch(r"[a-z]+_day[12]\.html", name)
+    ]
+    paths += [
+        os.path.join(CARDS, "master_timetable.html"),
+        os.path.join(HERE, "MASTER_TIMETABLE.md"),
+    ]
+    missing = []
+    for path in paths:
+        with open(path, encoding="utf-8") as fh:
+            text = html.unescape(re.sub(r"<[^>]+>", " ", fh.read()))
+        for pattern in required:
+            if not re.search(pattern, text):
+                missing.append((os.path.basename(path), pattern))
+    return missing
+
+
 # Master-plan wording differs from card wording, so these rules take precedence over
 # CELL_RULES when checking the master plan: (cell-text regex, regex a master row must match).
 MASTER_RULES = [
@@ -200,6 +227,11 @@ MASTER_RULES = [
     (r"arrival with camelot", r"camelot"),
     (r"arrive by themselves", r"by themselves"),
     (r"opportunity to give speech", r"opportunity to give a speech"),
+    (r"kdyby byla morava", r"kdyby byla morava.*0:26"),
+    (r"dai dai", r"dai dai.*shakira"),
+    (r"i.ve gotta feeling", r"i.ve gotta feeling.*1:29"),
+    (r"lets get it started", r"let.?s get it started.*black eyed peas"),
+    (r"gasolina", r"gasolina.*daddy yankee"),
 ]
 
 
@@ -232,6 +264,30 @@ def check_master(rules_for):
             for fmt in ("md", "html"):
                 if not any(f == fmt and pat.search(t) for f, t in rows):
                     gaps.append((person, key, label, cell, rule, fmt))
+    return gaps
+
+
+# Must-bring table checks: (person-row regex, [regexes that must all appear in that row]) in both master formats.
+MUST_BRING_CHECKS = [
+    (r"adam \(groom", [r"\$500", r"\$200", r"the ring", r"blue suit", r"presents? for karin"]),
+    (r"brittany \(bride", [r"wedding dress shoes", r"purse", r"hair extensions", r"something old|borrowed"]),
+    (r"marie", [r"hold brittany's dress"]),
+    (r"karin \(mother", [r"crate", r"money box", r"wagon", r"bubbles"]),
+    (r"tomas . radka|tomas &amp; radka", [r"food and formula", r"headphones", r"dominik"]),
+    (r"madison", [r"formula", r"wagon"]),
+    (r"peter \(father", [r"omi", r"cousin", r"car"]),
+]
+
+
+def check_must_bring():
+    gaps = []
+    rows = master_rows()
+    for rowrx, needs in MUST_BRING_CHECKS:
+        for fmt in ("md", "html"):
+            cands = [t for f, t in rows if f == fmt and re.search(rowrx, t) and (fmt == "html" or t.count("|") > 2)]
+            for n in needs:
+                if not any(re.search(n, t) for t in cands):
+                    gaps.append((rowrx, n, fmt))
     return gaps
 
 
@@ -272,10 +328,16 @@ def main():
     mgaps = check_master(rules_for)
     for m in mgaps:
         print(f"MASTER   {m[0]:9} [{m[1]}|{m[2]}] {m[3][:70]}   ({m[5]} master lacks /{m[4]}/)")
+    for rowrx, n, fmt in check_must_bring():
+        mgaps.append(("must-bring", fmt, rowrx, n, n, fmt))
+        print(f"MUSTBRING {rowrx} lacks /{n}/ in {fmt} master")
     broken = check_links()
     wide = check_time_groups()
+    timing_gaps = check_event_hours()
     for w in wide:
         print(f"WIDE     {w[0]} section '{w[1]}' spans 15+ minutes")
+    for name, need in timing_gaps:
+        print(f"TIME     {name} lacks /{need}/")
     print(f"CSV columns intentionally without cards (not audited): {', '.join(sorted(set(no_card))) or 'none'}")
     for g in gaps:
         print(f"GAP      {g[0]:9} [{g[1]}|{g[2]}] {g[3][:80]}   (card lacks /{g[4]}/)")
@@ -283,8 +345,8 @@ def main():
         print(f"UNMAPPED {u[0]:9} [{u[1]}|{u[2]}] {u[3][:80]}")
     for b in broken:
         print(f"BROKEN   {b[0]} -> {b[1]}")
-    print(f"\n{len(gaps)} gap(s), {len(unmapped)} unmapped cell(s), {len(broken)} broken link(s), {len(wide)} over-wide section(s), {len(mgaps)} master-plan gap(s)")
-    return 1 if gaps or broken or wide or mgaps else (2 if unmapped else 0)
+    print(f"\n{len(gaps)} gap(s), {len(unmapped)} unmapped cell(s), {len(broken)} broken link(s), {len(wide)} over-wide section(s), {len(mgaps)} master-plan gap(s), {len(timing_gaps)} event-hours gap(s)")
+    return 1 if gaps or broken or wide or mgaps or timing_gaps else (2 if unmapped else 0)
 
 
 if __name__ == "__main__":

@@ -113,7 +113,7 @@
 | **Time not specified (listed after open dancing)** | Brittany changes her shoes and dress to be more comfortable; Marie and Adam help her change. | Brittany, Marie, Adam | Reception |
 | **After the parent dances** | Open dancing; the timetable requests mostly Pitbull and Bebe Rexha. | Everyone | Dance floor |
 | **~7:55 PM** | Brief welcome toast before the first course. | peter & Karin | Reception room |
-| **~7:55 PM** | Blessing before the first course; order relative to the welcome toast is not specified. | Uncle Danny | Reception room |
+| **~7:55 PM** | Blessing before the first course; order relative to the welcome toast is not specified. | Erik | Reception room |
 | **8:00 PM** | **First Course** — Penne alla Vodka | Everyone (incl. kids' meals — *pre-order needed*) | Reception room |
 | **8:45–9:00 PM** | **Second Course / Salad** — Agrigento salad | Everyone | Reception room |
 | **9:00–10:15 PM, in listed sequence; individual start times unspecified** | **Speech 1 of 6:** Brittany's parents' speech. | peter & Karin | Reception room |
@@ -201,7 +201,7 @@ The reception timetable calls this a **15–20 minute** entrance-and-seating seq
 | **Marie (Maid of Honor)** | Tissues/emergency kit **[Suggested]**, MOH speech notes, ready hands to hold Brittany's bouquet, and to hold Brittany's dress when exiting the church | She receives the bouquet and gives a toast later |
 | **Gustavo (Best Man)** | Best man speech notes, tux picked up Thursday from Men's Wearhouse | Speech is during the formal Speeches block |
 | **Dalia / Julia / Julie / Bara / Autumn (Bridesmaids)** | Bridesmaid dresses/shoes (any color but white), flats for dancing **[Suggested]**. Marie, Dalia, Julia, Julie, and Autumn arrive at the hotel at 11:40 AM for pictures. Optional speech slot: Dalia, Julia, Julie, Bara, Autumn | Autumn: 7:00 AM hotel pickup with Chris; 8:30 AM appointment at Christie & Co. with Brittany. |
-| **Chris / Erik / Max (Groomsmen)** | Black tux/suit (picked up Thursday from Men's Wearhouse), boutonnieres | Chris drives Autumn to Christie & Co. in Bayside for the 8:30 AM appointment; confirm how Chris and Erik return to their later processional entries after escorting Karin and Omi. |
+| **Chris / Erik / Max (Groomsmen)** | Black tux/suit (picked up Thursday from Men's Wearhouse), boutonnieres. Erik: blessing notes for the blessing before the first course | Chris drives Autumn to Christie & Co. in Bayside for the 8:30 AM appointment; confirm how Chris and Erik return to their later processional entries after escorting Karin and Omi. |
 | **Meda & Sofia (Flower Girls)** | Flower petals/basket (practice walking and spreading petals at the 5:30 PM Friday rehearsal) | Provided as part of the OG Floral order |
 | **Emeric (Ring Bearer)** | Ring pillow with the wedding rings from the beginning of the ceremony, comfort item for a long day **[Suggested]**, the decorated wagon (acquired by Adam the week before) | Carries the rings to the altar |
 | **Madison (Daughter, flower girl role)** | Wagon (pulled by Emeric), comfort items/snacks for a 1-year-old **[Suggested]**; Radka packs her food, formula, protective headphones, toys and change of clothes | She rides in rather than walks |
@@ -210,7 +210,6 @@ The reception timetable calls this a **15–20 minute** entrance-and-seating seq
 | **Tomas & Radka (Groom's Parents)** | Candle-lighting participation reminder, groom's parents' speech notes. Radka also brings an item in memory of her late brother Dominik for the memorial table, and packs **food and formula for Madison** plus protective headphones, toys and a change of clothes (Friday 2:00 PM for the rehearsal and again Saturday 7:30 AM). | Scheduled twice in the evening (ceremony + reception) |
 | **Omi (Grandmother of the Bride)** | Comfortable shoes for being escorted down the aisle **[Suggested]** | Escorted by Erik; has a separate 8:30 AM hair appointment with Karin (salon not specified) |
 | **Eric & April Demery (Emeric's parents)** | Both: supervise Emeric before/after his duties | They and Emeric drive themselves to the church; departure time is not listed |
-| **Uncle Danny** | Prayer/blessing notes | Drives himself directly to Leonard's Palazzo, arriving by 6:30 PM for cocktail hour — he is not part of the church ceremony |
 | **Host / Family (shared "must bring" list from the venue)** | Money box, guest book, welcome banner, signature-drink sign, cake topper, alphabetized place cards, wine-box favors, memorial table items | Per Leonard's Palazzo Function Sheet — **"no items can be left at LP when the reception ends,"** so assign someone to collect everything before 12:30 AM |
 
 ---

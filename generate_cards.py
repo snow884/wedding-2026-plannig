@@ -363,9 +363,10 @@ PEOPLE = [
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
                 "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 6 of 8: walk in with Julia to \"Let's Get It Started\" (<a href=\"https://youtu.be/uS9A9lqd7-k\">https://youtu.be/uS9A9lqd7-k</a>, starting at 0:58) by the Black Eyed Peas, "
                 "immediately after Chris, Autumn, and Bara.",
+                "~7:55 PM: say the blessing before the first course; the order relative to Peter and Karin's welcome toast is not specified.",
             ]),
         ],
-        "reminder": "Must bring: black tux/suit (picked up Thursday), boutonniere.",
+        "reminder": "Must bring: black tux/suit (picked up Thursday), boutonniere, blessing notes.",
         "flavor": "Brittany's second younger brother — successful bodybuilder, great friend, "
                   "soon-to-be brother-in-law.",
     },
@@ -1098,7 +1099,7 @@ SATURDAY_ROWS = [
     ("Time not specified (listed after open dancing)", "Brittany changes her shoes and dress to be more comfortable; Marie and Adam help her change.", "Brittany, Marie, Adam", "Reception"),
     ("After the parent dances", "Open dancing; the requested mix is mostly Pitbull and Bebe Rexha.", "Everyone", "Dance floor"),
     ("~7:55 PM", "Brief welcome toast before the first course.", "peter &amp; Karin", "Reception room"),
-    ("~7:55 PM", "Blessing before the first course; exact order relative to the welcome toast is not specified.", "Uncle Danny", "Reception room"),
+    ("~7:55 PM", "Blessing before the first course; exact order relative to the welcome toast is not specified.", "Erik", "Reception room"),
     ("8:00 PM", "First Course — Penne alla Vodka.", "Everyone, incl. pre-ordered kids' meals", "Reception room"),
     ("8:45–9:00 PM", "Second Course / Salad — Agrigento salad.", "Everyone", "Reception room"),
     ("9:00–10:15 PM, in listed sequence; individual start times unspecified", "Speech 1 of 6: Brittany's parents' speech.", "peter &amp; Karin", "Reception room"),
@@ -1182,7 +1183,7 @@ MUST_BRING_ROWS = [
     ("Marie (Maid of Honor)", "Tissues/emergency kit, MOH speech notes. Hold Brittany's dress when exiting the church", "Receives the bouquet, gives a toast later"),
     ("Gustavo (Best Man)", "Best Man speech notes, tux picked up Thursday", "Speech is during the formal Speeches block"),
     ("Dalia / Julia / Julie / Bara / Autumn (Bridesmaids)", "Dresses/shoes (any color but white), flats for dancing. Marie, Dalia, Julia, Julie, and Autumn arrive at the hotel at 11:40 AM for pictures. Bring a speech if you want to use the optional speech slot (Dalia, Julia, Julie, Bara, Autumn). Autumn: 7:00 AM hotel pickup with Chris; 8:30 AM Christie & Co. appointment with Brittany.", "Comfort for the long day"),
-    ("Chris / Erik / Max (Groomsmen)", "Black tux/suit (picked up Thursday), boutonnieres. Chris: 7:00 AM hotel pickup to drive Autumn to Christie & Co. in Bayside.", "Dress code compliance"),
+    ("Chris / Erik / Max (Groomsmen)", "Black tux/suit (picked up Thursday), boutonnieres. Erik: blessing notes for the blessing before the first course. Chris: 7:00 AM hotel pickup to drive Autumn to Christie & Co. in Bayside.", "Dress code compliance"),
     ("Meda &amp; Sofia (Flower Girls)", "Flower petals/basket (practice walking and spreading petals at the 5:30 PM Friday rehearsal)", "Provided as part of the OG Floral order"),
     ("Emeric (Ring Bearer)", "Ring pillow with the wedding rings from the beginning of the ceremony, comfort item, the decorated wagon (acquired by Adam the week before)", "Carries the rings to the altar"),
     ("Madison (Flower Girl role)", "Wagon (pulled by Emeric), snacks, comfort item/blanket; Radka packs her food, formula, protective headphones, toys and change of clothes", "She rides in rather than walks"),
@@ -1191,7 +1192,6 @@ MUST_BRING_ROWS = [
     ("Tomas &amp; Radka (Groom's Parents)", "Candle-lighting reminder, speech notes. Radka also brings an item in memory of her late brother Dominik for the memorial table, and packs food and formula for Madison plus protective headphones, toys and a change of clothes (Friday 2:00 PM for the rehearsal and again Saturday 7:30 AM).", "Scheduled twice — ceremony + reception"),
     ("Omi (Grandmother of the Bride)", "Comfortable shoes for the aisle escort", "Escorted into the church by Erik; has a separate 8:30 AM hair appointment with Karin (salon not specified)"),
     ("Eric &amp; April Demery (Emeric's parents)", "Both: supervise Emeric", "They drive themselves and Emeric directly to the church; departure time is not specified"),
-    ("Uncle Danny", "Prayer/blessing notes", "Drives himself directly to Leonard's Palazzo by 6:30 PM"),
     ("Host / Family", "Money box, guest book, welcome banner, signature-drink sign, cake topper, place cards, wine-box favors, memorial table items", "No items may be left at Leonard's Palazzo after 12:30 AM"),
 ]
 

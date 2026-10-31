@@ -8,13 +8,14 @@ This is a private wedding-planning workspace for Brittany and Adam. It combines 
 
 - [MASTER_TIMETABLE.md](./MASTER_TIMETABLE.md) is the detailed human-readable weekend plan: schedule, ceremony and entrance orders, transportation, items to bring, catering, vendors, and urgent follow-ups.
 - [LOGISTICS_REVIEW.md](./LOGISTICS_REVIEW.md) documents cross-checks, conflicts and pacing risks, and distinguishes confirmed arrangements from suggestions.
-- `generate_cards.py` contains the data and templates for the master HTML timetable, the party-member day cards, and the gallery index in `cards/`.
+- `generate_cards.py` contains the data and templates for the master and reception HTML timetables, the party-member day cards, and the gallery index in `cards/`.
 
 Read the relevant source records before changing names, times, roles, vendor details, guest lists, or contractual arrangements. The Markdown plan, generator data, and generated HTML can drift; do not assume one is automatically derived from another.
 
 ## Files and Update Workflow
 
-- `generate_cards.py` writes `cards/master_timetable.html`, `cards/index.html`, and the per-person `*_day1.html` / `*_day2.html` pages. Update its embedded schedule/card data and templates when changing generated content. Update `MASTER_TIMETABLE.md` as well when the change affects the human-readable plan. Regenerate from the project root with `python generate_cards.py`, then inspect the affected output.
+- `generate_cards.py` writes `cards/master_timetable.html`, `cards/reception_timetable.html`, `cards/index.html`, `cards/print_all.html`, and the per-person `*_day1.html` / `*_day2.html` pages. Update its embedded schedule/card data and templates when changing generated content. Update `MASTER_TIMETABLE.md` as well when the change affects the human-readable plan. Regenerate from the project root with `python generate_cards.py`, then inspect the affected output.
+- `generate_jpgs.py` renders the person cards and both timetables to A4 JPEGs in `jpg_cards/`.
 - `cards/style.css` and `cards/gallery.css` control the generated pages' styles. The card pages link to portrait files under `dnd_portraits/`.
 - `generate_dnd_portraits.py` uses source photos in `wedding_party_pictures/` and `run_comfy_graph.py` to create images in `dnd_portraits/`. Image generation depends on a running/configured ComfyUI service and may use external compute. It skips portraits that already exist. Do not run it unless portrait generation is part of the requested change.
 - `run_comfy_graph.py` runs ComfyUI workflows; `workflow_files/` contains workflow inputs. Avoid changing service configuration or workflow files without a specific need.

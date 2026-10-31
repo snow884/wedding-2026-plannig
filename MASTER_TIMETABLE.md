@@ -15,8 +15,7 @@
 | 2 | ~~No documented transportation from the reception back to the hotel.~~ **Resolved:** the Camelot Limo Bus contract (Reservation #109521) has been extended to cover a 12:30 AM return run, Leonard's Palazzo → Inn at Great Neck, same driver (Bill Townsend). | The Inn at Great Neck is ~15 minutes **by car** (not a safe walk at midnight in formalwear, especially for Omi, the flower girls, and the ring bearer), so the extended bus run covers everyone on one trip. |
 | 3 | **"Parents' toast" clarified.** peter & Karin's **"Welcome speech/toast"** before dinner is a brief 1–2 minute welcome; their full **"Brittany's parents speech"** during the formal Speeches segment (between courses) is the complete toast. Both are intentional, not a duplicate — the DJ/MC has been briefed to introduce them differently each time. |
 | 4 | **Kids' meals are not pre-ordered.** The venue's menu says *"Kids Meals Available Upon Request"* — Meda, Sofia, Madison, and Emeric are all on-site through a 10:15 PM adult entrée service. **Request kids' meals and an earlier kids' food time** from Leonard's Palazzo in advance. |
-| 5 | **Rings are real heirlooms carried by a 1-year-old-adjacent toddler crew.** Emeric (the ring bearer) is listed to physically carry the rings into the ceremony. **[Suggested]** Use decoy/prop rings on Emeric's pillow and have Gustavo (best man) privately hold the real rings until the exchange, which is standard practice to avoid lost rings. |
-| 6 | **Rehearsal dinner location updated:** the Oct 18 timetable says the dinner begins at 6:00 PM at Zum Stammtisch, replacing the earlier Leonard's Palazzo entry. |
+| 5 | **Rehearsal dinner location updated:** the Oct 18 timetable says the dinner begins at 6:00 PM at Zum Stammtisch, replacing the earlier Leonard's Palazzo entry. |
 
 ---
 
@@ -60,7 +59,7 @@
 
 **Who should attend the rehearsal:** the couple, the full wedding party, the flower girls and ring bearer, both sets of parents, Omi, Eric & April Demery, and the officiant.
 
-**Items to bring to rehearsal:** comfortable shoes (not full formalwear), the officiant's contact info, and the ring pillow (practice run — no need to use the real rings).
+**Items to bring to rehearsal:** comfortable shoes (not full formalwear), the officiant's contact info, and the ring pillow for practice.
 
 ---
 
@@ -94,7 +93,7 @@
 | **2:00 PM** | **Ceremony begins** — St John's Lutheran Church, 2201 123rd St, College Point, NY 11356 (ceremony only, no mass) | Everyone | St John's Lutheran Church |
 | 2:00 PM | Processional / entrances to altar (see [Ceremony Order](#️-ceremony-processional-order-church)) | See order below | Church |
 | After the processional | Pastor reads the scripture; everyone kneels for prayer. Adam and Brittany say personal vows, then repeat the official religious vows after the pastor. | Everyone; Adam, Brittany | Church |
-| Ring exchange | Emeric brings the rings to the altar; Adam and Brittany exchange rings. | Adam, Brittany, Emeric | Church |
+| Ring exchange | Emeric has the wedding rings from the beginning of the ceremony and carries them to the altar; Adam and Brittany exchange rings. | Adam, Brittany, Emeric | Church |
 | Candle-lighting | Peter, Karin, Tomas, and Radka light individual candles from the Christ candle; Adam and Brittany light the unity candle with their parents holding their hands. | Adam, Brittany, Peter, Karin, Tomas, Radka | Church |
 | After the ceremony | Karin hands bubbles to everyone. The wedding party forms a line outside; Adam and Brittany exit last together, with Marie holding Brittany's dress as they exit. | Wedding party and guests; Marie | Church and exterior |
 | **3:30 PM** | Party bus departs from the church for Leonard's Palazzo.  | Wedding party and listed family | St John's Lutheran Church → Leonard's Palazzo |
@@ -107,10 +106,10 @@
 | **6:30–7:30 PM EST** | General **Cocktail Hour** for other guests, including Madison, Emeric, peter, Karin, Tomas, Radka, and Omi. | Guests | Leonard's Palazzo |
 | **7:30 PM EST** | Dinner reception begins; venue schedule runs through 12:30 AM EST Sunday, November 8. | Everyone | Reception room |
 | **After reception begins at 7:30 PM** | **Grand Entrance & Seating** — a 15–20 minute sequence; see [Grand Entrance Order](#-grand-entrance-order-reception). | Everyone | Reception room |
-| **After the grand entrance** | **Dance 1 of 3:** First Dance — Adam and Brittany dance to **"Can't Help Falling in Love" by Elvis Presley** (Dancing on Clouds effect). | Adam, Brittany | Dance floor |
+| **After the grand entrance** | **Dance 1 of 3:** Adam and Brittany dance to **"Can't Help Falling in Love" by Elvis Presley** ([https://youtu.be/MqazV4hbu8E](https://youtu.be/MqazV4hbu8E); play for **1:30**, start offset not specified; Dancing on Clouds effect). | Adam, Brittany | Dance floor |
 | **After dance 1** | The MC/DJ invites other couples to join Adam and Brittany on the dance floor. | Couples | Dance floor |
-| **Parent dances, after the first dance** | **Dance 2 of 3:** Brittany dances with peter to **"Give Me a Way" by Riley Roth**. | Brittany, peter | Dance floor |
-| **After Brittany and peter's dance** | **Dance 3 of 3:** Adam dances with Radka to **"Zestárli jsme lásko" by Nohavica**. | Adam, Radka | Dance floor |
+| **Parent dances, after the first dance** | **Dance 2 of 3:** Brittany dances with Peter to **"Give Me a Way" by Riley Roth** ([https://youtu.be/db0i8_-v0eY](https://youtu.be/db0i8_-v0eY)), playing **0:00–1:25**. Then transition to **"Reach for the Stars" by Pitbull and Kiss** ([https://youtu.be/9KjgUSwdR-I](https://youtu.be/9KjgUSwdR-I)), playing **0:17–0:30**, jump to the second verse at **2:14–2:32**, then the dance ends. | Brittany, Peter | Dance floor |
+| **After Brittany and Peter's dance** | **Dance 3 of 3:** Adam dances with Radka to **"Zestárli jsme lásko" by Nohavica** ([https://youtu.be/Gw9iq18e9fE](https://youtu.be/Gw9iq18e9fE)), playing **0:00–1:00**. | Adam, Radka | Dance floor |
 | **Time not specified (listed after open dancing)** | Brittany changes her shoes and dress to be more comfortable; Marie and Adam help her change. | Brittany, Marie, Adam | Reception |
 | **After the parent dances** | Open dancing; the timetable requests mostly Pitbull and Bebe Rexha. | Everyone | Dance floor |
 | **~7:55 PM** | Brief welcome toast before the first course. | peter & Karin | Reception room |
@@ -126,10 +125,10 @@
 | **10:15 PM** | **Entrées** — guest's choice of 4: Herb-Rubbed Salmon, Filet Mignon, Herb Roasted Chicken, Melanzana Pomodoro | Everyone | Reception room |
 | ~10:45 PM | **Cake Cutting** — Adam & Brittany cut the 4-tier buttercream cake together | Adam, Brittany (everyone watches) | Reception room |
 | **~11:00 PM, after cake cutting** | Bouquet toss. | Brittany | Dance floor |
-| **After the bouquet toss, during the ~11:00 PM reception block** | Garter toss. | Adam | Dance floor |
-| **After the garter toss, during the ~11:00 PM reception block** | Anniversary dance; the DJ calls up couples and eliminates by years married until the longest-married couple remains. | Couples | Dance floor |
+| **After the bouquet toss, during the ~11:00 PM reception block** | Anniversary dance; the DJ calls up couples and eliminates by years married until the longest-married couple remains. | Couples | Dance floor |
 | **After the anniversary dance, before 11:30 PM dessert hour** | Last dance. | Everyone | Dance floor |
 | **11:30 PM Sat–12:30 AM EST Sun, Nov 8** | **La Dolce Tavola** dessert hour — pastries, chocolate fountain, cannoli, sundae bar, cheesecake medley, waffles, zeppoles, cordial bar, coffee/tea | Everyone | Reception room |
+| **12:30 AM EST, Sunday, November 8** | **Guests take favours home** — everyone takes a wedding favour home; Karin makes sure there is only one favour per couple | Everyone; Karin | Reception room |
 | **12:30 AM EST, Sunday, November 8** | **Wedding event ends** (venue contracted end time; no items may be left at Leonard's Palazzo) | Everyone | Leonard's Palazzo |
 | **12:30 AM EST, Sunday, November 8** | Return transportation — Camelot Limo Bus extended run back to the hotel | Everyone | Venue → Hotel |
 
@@ -165,14 +164,14 @@ Ceremony begins at **2:00 PM**. Individual ceremony actions below have no schedu
 
 The reception timetable calls this a **15–20 minute** entrance-and-seating sequence after reception begins at 7:30 PM. Exact song cues are listed where provided:
 
-1. **peter walks in with Karin** (bride's parents) to "You Spin Me Round" by Dead or Alive; first group.
-2. **Tomas walks in with Radka** (groom's parents) immediately after Peter and Karin, to "Kdyby byla Morava," starting at **0:26** when the singing starts.
-3. **Emeric, Meda, Sofia, and Madison walk in together** immediately after Tomas and Radka, to "Dai Dai" by Shakira.
-4. **Marie walks in with Gustavo** (Maid of Honor and Best Man) to "Rompe Rompe" by Daddy Yankee, immediately after the children.
-5. **Chris, Autumn, and Bara walk in together** immediately after Marie and Gustavo, to "I've Gotta Feeling" by the Black Eyed Peas, starting at **1:29**.
-6. **Erik walks in with Julia** immediately after Chris, Autumn, and Bara, to "Let's Get It Started" by the Black Eyed Peas.
-7. **Max walks in with Julie and Dalia** immediately after Erik and Julia, to "Gasolina" by Daddy Yankee.
-8. **Adam walks in with Brittany** as the grand finale, immediately after Max, Julie, and Dalia, to "Give Me Everything" by Pitbull; the wedding party forms an arch.
+1. **peter walks in with Karin** (bride's parents) to "You Spin Me Round" ([https://youtu.be/Yf1ewCvFvmI](https://youtu.be/Yf1ewCvFvmI); starting at **1:00**) by Dead or Alive; first group.
+2. **Tomas walks in with Radka** (groom's parents) immediately after Peter and Karin, to "Kdyby byla Morava" ([https://youtu.be/iR_tD9EBhTo](https://youtu.be/iR_tD9EBhTo); starting at **0:23**).
+3. **Emeric, Meda, Sofia, and Madison walk in together** immediately after Tomas and Radka, to "Dai Dai" ([https://youtu.be/Y3jq_WIHP9k](https://youtu.be/Y3jq_WIHP9k); starting at **0:24**) by Shakira.
+4. **Marie walks in with Gustavo** (Maid of Honor and Best Man) to "Rompe Rompe" ([https://youtu.be/QHgryLv6IFk](https://youtu.be/QHgryLv6IFk); starting at **0:20**) by Daddy Yankee, immediately after the children.
+5. **Chris, Autumn, and Bara walk in together** immediately after Marie and Gustavo, to "I've Gotta Feeling" ([https://youtu.be/hs_yk24ghzA](https://youtu.be/hs_yk24ghzA); starting at **1:29**) by the Black Eyed Peas.
+6. **Erik walks in with Julia** immediately after Chris, Autumn, and Bara, to "Let's Get It Started" ([https://youtu.be/uS9A9lqd7-k](https://youtu.be/uS9A9lqd7-k); starting at **0:58**) by the Black Eyed Peas.
+7. **Max walks in with Julie and Dalia** immediately after Erik and Julia, to "Gasolina" ([https://youtu.be/q6pbjleOHME](https://youtu.be/q6pbjleOHME); starting at **0:00**) by Daddy Yankee.
+8. **Adam walks in with Brittany** as the grand finale, immediately after Max, Julie, and Dalia, to "Give Me Everything" ([https://youtu.be/3MqUW5txLjs](https://youtu.be/3MqUW5txLjs); starting at **0:40**) by Pitbull; the wedding party forms an arch.
 
 ---
 
@@ -200,11 +199,11 @@ The reception timetable calls this a **15–20 minute** entrance-and-seating seq
 | **Adam (Groom)** | Marriage license, vows, wedding band, the ring, presents for Karin and Peter, blue suit for the rehearsal, the wagon for Madison, peter's ride confirmed, tux picked up Thursday from Men's Wearhouse. **Cash envelopes for the ceremony: $500 for the pastor and $200 for the musician playing the bridal march.** Flower delivery to receive at 9:30 AM Saturday | Needed to legally marry; envelopes are paid at the church; can't be left at the hotel |
 | **Brittany (Bride)** | Marriage license, vows, bouquet, "something old/new/borrowed/blue" **[Suggested]**, wedding dress shoes, wedding purse, a change of dress and flats for dancing, hair extensions, presents for Adam's parents, wedding bands + wedding invitation (as photo props for the 12:00 PM bridesmaid pictures) | Bouquet is handed to Marie mid-ceremony — don't forget it in the limo! |
 | **Marie (Maid of Honor)** | Tissues/emergency kit **[Suggested]**, MOH speech notes, ready hands to hold Brittany's bouquet, and to hold Brittany's dress when exiting the church | She receives the bouquet and gives a toast later |
-| **Gustavo (Best Man)** | **The real wedding rings** (if using the decoy-ring approach), best man speech notes, tux picked up Thursday from Men's Wearhouse | Rings must reach the altar; speech is during the formal Speeches block |
+| **Gustavo (Best Man)** | Best man speech notes, tux picked up Thursday from Men's Wearhouse | Speech is during the formal Speeches block |
 | **Dalia / Julia / Julie / Bara / Autumn (Bridesmaids)** | Bridesmaid dresses/shoes (any color but white), flats for dancing **[Suggested]**. Marie, Dalia, Julia, Julie, and Autumn arrive at the hotel at 11:40 AM for pictures. Optional speech slot: Dalia, Julia, Julie, Bara, Autumn | Autumn: 7:00 AM hotel pickup with Chris; 8:30 AM appointment at Christie & Co. with Brittany. |
 | **Chris / Erik / Max (Groomsmen)** | Black tux/suit (picked up Thursday from Men's Wearhouse), boutonnieres | Chris drives Autumn to Christie & Co. in Bayside for the 8:30 AM appointment; confirm how Chris and Erik return to their later processional entries after escorting Karin and Omi. |
 | **Meda & Sofia (Flower Girls)** | Flower petals/basket (practice walking and spreading petals at the 5:30 PM Friday rehearsal) | Provided as part of the OG Floral order |
-| **Emeric (Ring Bearer)** | Ring pillow (decoy rings recommended), comfort item for a long day **[Suggested]**, the decorated wagon (acquired by Adam the week before) | Rings are the centerpiece of the ceremony |
+| **Emeric (Ring Bearer)** | Ring pillow with the wedding rings from the beginning of the ceremony, comfort item for a long day **[Suggested]**, the decorated wagon (acquired by Adam the week before) | Carries the rings to the altar |
 | **Madison (Daughter, flower girl role)** | Wagon (pulled by Emeric), comfort items/snacks for a 1-year-old **[Suggested]**; Radka packs her food, formula, protective headphones, toys and change of clothes | She rides in rather than walks |
 | **Karin (Mother of the Bride)** | Bubbles for the guests, welcome speech notes, the crate of welcome-table/memorial-table items + wine-box favors + money box (dropped off the week before), decorations and the wagon for Madison at the 4:30 PM rehearsal | Chris escorts her into the church; she hands bubbles out after the ceremony |
 | **peter (Father of the Bride)** | His car (for driving Adam), welcome speech notes. Saturday drives: Omi (11:30 AM), Karin's cousin and family (12:00 PM), Adam (1:00 PM), ready to walk Brittany down the aisle | Timetable lists teaching at 9:30 AM and 10:00 AM; end time is not specified |

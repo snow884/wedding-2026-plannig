@@ -322,6 +322,26 @@ body {
 
 .scroll section:first-of-type h2 { margin-top: 0; }
 
+.scroll #timeline table {
+  font-size: 7.5pt;
+}
+
+.scroll #timeline th {
+  padding: 1mm;
+}
+
+.scroll #timeline td {
+  padding: 0.75mm;
+  line-height: 1.1;
+}
+
+.scroll .dj-cue-page {
+  break-before: page;
+  page-break-before: always;
+}
+
+.scroll .dj-cue-page h2:first-child { margin-top: 0; }
+
 .scroll table {
   width: 100%;
   border-collapse: collapse;

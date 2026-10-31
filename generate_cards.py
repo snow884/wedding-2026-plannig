@@ -9,6 +9,13 @@ import os
 OUTPUT_DIR = "cards"
 PORTRAIT_DIR_REL = "../dnd_portraits"
 
+DANCE_VIDEO_LINKS = {
+    "adam_brittany": '<a href="https://youtu.be/MqazV4hbu8E">https://youtu.be/MqazV4hbu8E</a>',
+    "brittany_peter": '<a href="https://youtu.be/db0i8_-v0eY">https://youtu.be/db0i8_-v0eY</a>',
+    "reach_for_the_stars": '<a href="https://youtu.be/9KjgUSwdR-I">https://youtu.be/9KjgUSwdR-I</a>',
+    "adam_radka": '<a href="https://youtu.be/Gw9iq18e9fE">https://youtu.be/Gw9iq18e9fE</a>',
+}
+
 # frame: one of white / blue / black / green / red (MTG color identity, reused
 # here as a simple visual grouping by wedding role)
 PEOPLE = [
@@ -44,7 +51,7 @@ PEOPLE = [
             ]),
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party (apps + drinks).",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Gustavo (Best Man) to \"Rompe Rompe\" by Daddy Yankee, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Gustavo (Best Man) to \"Rompe Rompe\" (<a href=\"https://youtu.be/QHgryLv6IFk\">https://youtu.be/QHgryLv6IFk</a>, starting at 0:20) by Daddy Yankee, "
                 "immediately after Emeric, Meda, Sofia, and Madison.",
                 "9:00–10:15 PM Formal Speeches segment (after the second course and before entrées): "
                 "deliver your Maid of Honor speech (2nd of the speeches) after Peter and Karin's parents' speech and before Gustavo's Best Man speech; exact minute is not specified.",
@@ -66,7 +73,7 @@ PEOPLE = [
             ("Arrival", ["Check into the Inn at Great Neck (after 3:00 PM)."]),
             ("Thursday, Nov 5", ["Pick up your tux from Men's Wearhouse."]),
             ("Ceremony Rehearsal (4:00–5:00 PM, St John's Lutheran Church)", [
-                "Practice standing beside Adam at the altar and confirm the ring hand-off choreography with the officiant and Emeric.",
+                "Practice standing beside Adam at the altar.",
             ]),
             ("Rehearsal Dinner (6:00 PM, Zum Stammtisch)", [
                 "Attend with the wedding party and immediate family.",
@@ -80,20 +87,17 @@ PEOPLE = [
             ("1:15 PM", ["1:15 PM: ride with Adam and Peter in Peter's car directly to St John's Lutheran Church."]),
             ("Ceremony (2:00 PM, St John's Lutheran Church)", [
                 "Enter the church together with Adam at the start of the processional; Adam waits at the altar and you sit down.",
-                "Suggested: carry the real wedding rings yourself and let Emeric present a decoy "
-                "pair on the ring pillow — classic insurance against a toddler losing the rings.",
                 "Exit after the main party and form the line outside for the bubble send-off.",
             ]),
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Marie (Maid of Honor) to \"Rompe Rompe\" by Daddy Yankee, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 4 of 8: walk in with Marie (Maid of Honor) to \"Rompe Rompe\" (<a href=\"https://youtu.be/QHgryLv6IFk\">https://youtu.be/QHgryLv6IFk</a>, starting at 0:20) by Daddy Yankee, "
                 "immediately after Emeric, Meda, Sofia, and Madison.",
                 "9:00–10:15 PM Formal Speeches segment (after the second course and before entrées): "
                 "deliver your Best Man speech (3rd of the speeches) after Marie's Maid of Honor speech and before Tomas and Radka's groom's parents' speech; exact minute is not specified.",
             ]),
         ],
-        "reminder": "Must bring: the real wedding rings (if using the decoy-ring plan), "
-                    "Best Man speech notes.",
+        "reminder": "Must bring: Best Man speech notes.",
         "flavor": "A close friend who met Adam at the University of Rochester — "
                   "amazing gentleman, highly intelligent.",
     },
@@ -124,7 +128,7 @@ PEOPLE = [
             ]),
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 7 of 8: walk in with Max and Julie to \"Gasolina\" by Daddy Yankee, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 7 of 8: walk in with Max and Julie to \"Gasolina\" (<a href=\"https://youtu.be/q6pbjleOHME\">https://youtu.be/q6pbjleOHME</a>, starting at 0:00) by Daddy Yankee, "
                 "immediately after Erik and Julia.",
                 "After the parent dances: join open dancing when the MC/DJ opens the floor; follow the MC/DJ's cues around scheduled events through the 12:30 AM reception end.",
             ]),
@@ -160,7 +164,7 @@ PEOPLE = [
             ]),
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 6 of 8: walk in with Erik to \"Let's Get It Started\" by the Black Eyed Peas, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 6 of 8: walk in with Erik to \"Let's Get It Started\" (<a href=\"https://youtu.be/uS9A9lqd7-k\">https://youtu.be/uS9A9lqd7-k</a>, starting at 0:58) by the Black Eyed Peas, "
                 "immediately after Chris, Autumn, and Bara.",
                 "After the parent dances: join open dancing when the MC/DJ opens the floor; follow the MC/DJ's cues around scheduled events through the 12:30 AM reception end.",
             ]),
@@ -197,7 +201,7 @@ PEOPLE = [
             ]),
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 7 of 8: walk in with Max and Dalia to \"Gasolina\" by Daddy Yankee, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 7 of 8: walk in with Max and Dalia to \"Gasolina\" (<a href=\"https://youtu.be/q6pbjleOHME\">https://youtu.be/q6pbjleOHME</a>, starting at 0:00) by Daddy Yankee, "
                 "immediately after Erik and Julia.",
                 "After the parent dances: join open dancing when the MC/DJ opens the floor; follow the MC/DJ's cues around scheduled events through the 12:30 AM reception end.",
             ]),
@@ -232,7 +236,7 @@ PEOPLE = [
             ]),
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 5 of 8: walk in with Chris and Autumn to \"I've Gotta Feeling\" by the Black Eyed Peas at 1:29, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 5 of 8: walk in with Chris and Autumn to \"I've Gotta Feeling\" (<a href=\"https://youtu.be/hs_yk24ghzA\">https://youtu.be/hs_yk24ghzA</a>, starting at 1:29) by the Black Eyed Peas, "
                 "immediately after Marie and Gustavo.",
                 "Before the processional, help Meda get ready for her entry after Marie.",
             ]),
@@ -274,7 +278,7 @@ PEOPLE = [
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 5 of 8: walk in with Chris and Bara to \"I've Gotta Feeling\" by the Black Eyed Peas at 1:29, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 5 of 8: walk in with Chris and Bara to \"I've Gotta Feeling\" (<a href=\"https://youtu.be/hs_yk24ghzA\">https://youtu.be/hs_yk24ghzA</a>, starting at 1:29) by the Black Eyed Peas, "
                 "immediately after Marie and Gustavo.",
                 "After the Grand Entrance &amp; Seating sequence, help Madison stay safe near the dance floor when it is open.",
                 "~10:45 PM, during cake cutting: help Madison stay safely with the family.",
@@ -317,7 +321,7 @@ PEOPLE = [
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 5 of 8: walk in with Autumn and Bara to \"I've Gotta Feeling\" by the Black Eyed Peas at 1:29, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 5 of 8: walk in with Autumn and Bara to \"I've Gotta Feeling\" (<a href=\"https://youtu.be/hs_yk24ghzA\">https://youtu.be/hs_yk24ghzA</a>, starting at 1:29) by the Black Eyed Peas, "
                 "immediately after Marie and Gustavo.",
                 "After the Grand Entrance &amp; Seating sequence, help Madison stay safe near the dance floor when it is open.",
                 "~10:45 PM, during cake cutting: help Madison stay safely with the family.",
@@ -357,7 +361,7 @@ PEOPLE = [
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 6 of 8: walk in with Julia to \"Let's Get It Started\" by the Black Eyed Peas, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 6 of 8: walk in with Julia to \"Let's Get It Started\" (<a href=\"https://youtu.be/uS9A9lqd7-k\">https://youtu.be/uS9A9lqd7-k</a>, starting at 0:58) by the Black Eyed Peas, "
                 "immediately after Chris, Autumn, and Bara.",
             ]),
         ],
@@ -393,7 +397,7 @@ PEOPLE = [
             ("Reception (Leonard's Palazzo)", [
                 "4:30–6:30 PM: private wedding suite with the bridal party.",
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
-                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 7 of 8: walk in with Julie and Dalia to \"Gasolina\" by Daddy Yankee, "
+                "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 7 of 8: walk in with Julie and Dalia to \"Gasolina\" (<a href=\"https://youtu.be/q6pbjleOHME\">https://youtu.be/q6pbjleOHME</a>, starting at 0:00) by Daddy Yankee, "
                 "immediately after Erik and Julia.",
                 "You're the hype man — keep the dance floor energy up!",
             ]),
@@ -430,7 +434,7 @@ PEOPLE = [
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
                 "6:30 PM: join the bridal party's private suite cocktail hour.",
                 "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 3 of 8: walk in together with Emeric, Sofia, "
-                "and Madison to \"Dai Dai\" by Shakira, immediately after Tomas and Radka.",
+                "and Madison to \"Dai Dai\" (<a href=\"https://youtu.be/Y3jq_WIHP9k\">https://youtu.be/Y3jq_WIHP9k</a>, starting at 0:24) by Shakira, immediately after Tomas and Radka.",
                 "Before the 10:15 PM entrée service: ask a grown-up to request your kids' meal early.",
             ]),
         ],
@@ -467,7 +471,7 @@ PEOPLE = [
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
                 "6:30 PM: join the bridal party's private suite cocktail hour.",
                 "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 3 of 8: walk in together with Emeric, Meda, "
-                "and Madison to \"Dai Dai\" by Shakira, immediately after Tomas and Radka.",
+                "and Madison to \"Dai Dai\" (<a href=\"https://youtu.be/Y3jq_WIHP9k\">https://youtu.be/Y3jq_WIHP9k</a>, starting at 0:24) by Shakira, immediately after Tomas and Radka.",
                 "Before the 10:15 PM entrée service: ask a grown-up to request your kids' meal early.",
             ]),
         ],
@@ -504,7 +508,7 @@ PEOPLE = [
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
                 "6:30 PM: join the general cocktail hour with the guests.",
                 "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 3 of 8: enter together with Emeric, Meda, "
-                "and Sofia to \"Dai Dai\" by Shakira, immediately after Tomas and Radka.",
+                "and Sofia to \"Dai Dai\" (<a href=\"https://youtu.be/Y3jq_WIHP9k\">https://youtu.be/Y3jq_WIHP9k</a>, starting at 0:24) by Shakira, immediately after Tomas and Radka.",
                 "Before the 10:15 PM entrée service: ask a grown-up to request an earlier kids' meal and snacks for a 1-year-old.",
             ]),
         ],
@@ -529,24 +533,23 @@ PEOPLE = [
                 "Attend with your family; the timetable lists your parents taking you to the church the next day.",
             ]),
         ],
-        "rehearsal_reminder": "Must bring: the ring pillow (practice run — no need for the real rings tonight), a comfort item.",
+        "rehearsal_reminder": "Must bring: the ring pillow for practice, a comfort item.",
         "duties": [
             ("Arrival", ["Travel with your parents, Eric & April Demery, who drive their own car directly to the church; departure time is not specified."]),
             ("Ceremony (2:00 PM, St John's Lutheran Church)", [
                 "Pull Madison down the aisle in her wagon, right after the flower girls Meda and Sofia walk in.",
-                "Carry the ring pillow forward before the ring exchange. (Suggested: a decoy pair of "
-                "rings on your pillow, with Gustavo safely holding the real rings.)",
+                "Carry the wedding rings on your pillow from the beginning of the ceremony and bring them to the altar.",
                 "The pastor reads the scripture; everyone kneels for prayer.",
             ]),
             ("Reception (Leonard's Palazzo)", [
                 "~5:30 PM: pictures in front of Leonard's Palazzo with the whole group.",
                 "6:30 PM: join the general cocktail hour with the guests.",
                 "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 3 of 8: enter together with Meda, Sofia, "
-                "and Madison to \"Dai Dai\" by Shakira, immediately after Tomas and Radka.",
+                "and Madison to \"Dai Dai\" (<a href=\"https://youtu.be/Y3jq_WIHP9k\">https://youtu.be/Y3jq_WIHP9k</a>, starting at 0:24) by Shakira, immediately after Tomas and Radka.",
                 "Before the 10:15 PM entrée service: ask a grown-up to request your kids' meal early.",
             ]),
         ],
-        "reminder": "Must bring: the ring pillow (decoy rings recommended), a comfort item for a long day.",
+        "reminder": "Must bring: the ring pillow with the wedding rings, a comfort item for a long day.",
         "flavor": "Our adorable ring bearer, ready to make the big day even more special.",
     },
     {
@@ -574,8 +577,8 @@ PEOPLE = [
             ("Reception", ["3:30 PM: take the party bus from the church to Leonard's Palazzo.",
                            "5:30 PM: join the group photos outside Leonard's Palazzo.",
                            "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 8 of 8: walk in with Brittany after Max, Julie, and Dalia; the wedding party forms an arch.",
-                           "After the grand entrance: first dance with Brittany to \"Can't Help Falling in Love\" by Elvis Presley.",
-                           "After the first dance, join Radka for the parent dance to \"Zestárli jsme lásko\" by Nohavica."]),
+                           f"After the grand entrance: first dance with Brittany to \"Can't Help Falling in Love\" by Elvis Presley — {DANCE_VIDEO_LINKS['adam_brittany']}; play for 1:30 (start offset not specified).",
+                           f"After the first dance, join Radka for \"Zestárli jsme lásko\" by Nohavica — {DANCE_VIDEO_LINKS['adam_radka']}, 0:00–1:00."]),
         ],
         "reminder": "Bring your marriage license, vows, and wedding band; confirm Peter's ride and tux pickup.",
         "flavor": "The groom — ready to begin a new adventure with Brittany.",
@@ -603,8 +606,8 @@ PEOPLE = [
             ("Reception", ["3:30 PM: take the party bus from the church to Leonard's Palazzo.",
                            "5:30 PM: join the group photos outside Leonard's Palazzo.",
                            "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 8 of 8: walk in with Adam after Max, Julie, and Dalia; the wedding party forms an arch.",
-                           "After the grand entrance: first dance with Adam to \"Can't Help Falling in Love\" by Elvis Presley.",
-                           "After the first dance, join Peter for the parent dance to \"Give Me a Way\" by Riley Roth."]),
+                           f"After the grand entrance: first dance with Adam to \"Can't Help Falling in Love\" by Elvis Presley — {DANCE_VIDEO_LINKS['adam_brittany']}; play for 1:30 (start offset not specified).",
+                           f"After the first dance, join Peter for \"Give Me a Way\" by Riley Roth — {DANCE_VIDEO_LINKS['brittany_peter']}, 0:00–1:25; then transition to \"Reach for the Stars\" by Pitbull and Kiss — {DANCE_VIDEO_LINKS['reach_for_the_stars']}, 0:17–0:30, then jump to the second verse at 2:14–2:32; dance ends."]),
         ],
         "reminder": "Keep the wedding bands and invitation with you for the hotel photos; make sure your bouquet gets to the ceremony.",
         "flavor": "The bride — the day's brightest star and the heart of this celebration.",
@@ -629,7 +632,7 @@ PEOPLE = [
                                     "After the ceremony, hand bubbles to everyone outside the church."]),
             ("Reception", ["3:30 PM: take the party bus from the church to Leonard's Palazzo.",
                            "5:30 PM: join the group photos outside Leonard's Palazzo.",
-                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 1 of 8: walk in with Peter to \"You Spin Me Round\" by Dead or Alive; you are the first group in.",
+                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 1 of 8: walk in with Peter to \"You Spin Me Round\" (<a href=\"https://youtu.be/Yf1ewCvFvmI\">https://youtu.be/Yf1ewCvFvmI</a>, starting at 1:00) by Dead or Alive; you are the first group in.",
                            "After the first dance, give the welcome toast with Peter before dinner.",
                            "9:00–10:15 PM Formal Speeches segment, after the second course and before entrées: deliver Brittany's parents' speech with Peter (1st of the speeches), before Marie's Maid of Honor speech; exact minute is not specified."]),
         ],
@@ -656,8 +659,8 @@ PEOPLE = [
                                     "Take part in the family candle-lighting."]),
             ("Reception", ["3:30 PM: ride the Camelot bus from the church to Leonard's Palazzo.",
                            "5:30 PM: join the group photos outside Leonard's Palazzo.",
-                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 1 of 8: walk in with Karin to \"You Spin Me Round\" by Dead or Alive; you are the first group in.",
-                           "After the first dance, have the parent dance with Brittany to \"Give Me a Way\" by Riley Roth.",
+                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 1 of 8: walk in with Karin to \"You Spin Me Round\" (<a href=\"https://youtu.be/Yf1ewCvFvmI\">https://youtu.be/Yf1ewCvFvmI</a>, starting at 1:00) by Dead or Alive; you are the first group in.",
+                           f"After the first dance, parent dance with Brittany to \"Give Me a Way\" by Riley Roth — {DANCE_VIDEO_LINKS['brittany_peter']}, 0:00–1:25; then transition to \"Reach for the Stars\" by Pitbull and Kiss — {DANCE_VIDEO_LINKS['reach_for_the_stars']}, 0:17–0:30, then jump to the second verse at 2:14–2:32; dance ends.",
                            "~7:55 PM: give the brief welcome toast with Karin before the first course.",
                            "9:00–10:15 PM Formal Speeches segment, after the second course and before entrées: deliver Brittany's parents' speech with Karin (1st of the speeches), before Marie's Maid of Honor speech; exact minute is not specified."]),
         ],
@@ -682,8 +685,8 @@ PEOPLE = [
             ("Ceremony (2:00 PM)", ["Enter together with Tomas as the groom's parents; take part in the family candle-lighting."]),
             ("Reception", ["3:30 PM: take the party bus from the church to Leonard's Palazzo.",
                            "5:30 PM: join the group photos outside Leonard's Palazzo.",
-                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 2 of 8: walk in with Tomas to \"Kdyby byla Morava\" starting at 0:26, when the singing starts, immediately after Peter and Karin.",
-                           "After Brittany and Peter's dance, have the parent dance with Adam to \"Zestárli jsme lásko\" by Nohavica.",
+                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 2 of 8: walk in with Tomas to \"Kdyby byla Morava\" (<a href=\"https://youtu.be/iR_tD9EBhTo\">https://youtu.be/iR_tD9EBhTo</a>, starting at 0:23), immediately after Peter and Karin.",
+                           f"After Brittany and Peter's dance, parent dance with Adam to \"Zestárli jsme lásko\" by Nohavica — {DANCE_VIDEO_LINKS['adam_radka']}, 0:00–1:00.",
                            "9:00–10:15 PM Formal Speeches segment, after the second course and before entrées: deliver the groom's parents' speech with Tomas (4th of the speeches), after Gustavo's Best Man speech and before the optional speeches; exact minute is not specified."]),
         ],
         "reminder": "Bring Dominik's memorial-table item and comfortable shoes for the celebration.",
@@ -707,8 +710,8 @@ PEOPLE = [
             ("Ceremony (2:00 PM)", ["Walk into the church with Radka as the groom's parents; take part in the family candle-lighting."]),
             ("Reception", ["3:30 PM: take the party bus from the church to Leonard's Palazzo.",
                            "5:30 PM: join the group photos outside Leonard's Palazzo.",
-                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 2 of 8: walk in with Radka to \"Kdyby byla Morava\" starting at 0:26, when the singing starts, immediately after Peter and Karin.",
-                           "After Brittany and Peter's dance, join Radka and Adam for the parent dance to \"Zestárli jsme lásko\" by Nohavica.",
+                           "During the 15–20 minute Grand Entrance &amp; Seating sequence after the 7:30 PM reception start, group 2 of 8: walk in with Radka to \"Kdyby byla Morava\" (<a href=\"https://youtu.be/iR_tD9EBhTo\">https://youtu.be/iR_tD9EBhTo</a>, starting at 0:23), immediately after Peter and Karin.",
+                           f"After Brittany and Peter's dance, join Radka and Adam for \"Zestárli jsme lásko\" by Nohavica — {DANCE_VIDEO_LINKS['adam_radka']}, 0:00–1:00.",
                            "9:00–10:15 PM Formal Speeches segment, after the second course and before entrées: deliver the groom's parents' speech with Radka (4th of the speeches), after Gustavo's Best Man speech and before the optional speeches; exact minute is not specified."]),
         ],
         "reminder": "Be ready for the 10:00 AM photos and board the first-wave bus by 1:00 PM.",
@@ -902,6 +905,60 @@ MASTER_SCROLL_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+RECEPTION_SCROLL_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reception Timetable — Brittany &amp; Adam's Wedding</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scroll frame-gold">
+  <div class="scroll-inner">
+    <div class="scroll-title">
+      <h1>Reception Timetable</h1>
+      <div class="sub">Brittany &amp; Adam • Saturday, November 7, 2026<br>
+        MC &amp; DJ copy • Leonard's Palazzo • Cocktail hour 6:30–7:30 PM EST</div>
+    </div>
+    <div class="scroll-nav">
+      <a href="#timeline">Reception Timeline</a>
+      <a href="#dances">First Dances</a>
+      <a href="#entrances">Grand Entrance</a>
+    </div>
+
+    <section id="timeline">
+      <h2>Reception Timeline</h2>
+      {timetable}
+    </section>
+
+    <div id="dj-cues" class="dj-cue-page">
+      <section id="dances">
+        <h2>DJ Cues: First Dances</h2>
+        {dances}
+      </section>
+
+      <section id="entrances">
+        <h2>Grand Entrance Order</h2>
+        {entrances}
+      </section>
+    </div>
+
+    <div class="bottom-row">
+      <span class="collector">Brittany &amp; Adam • 11.7.2026</span>
+      <span class="pt-box">Reception Timetable<br>MC &amp; DJ Copy</span>
+    </div>
+  </div>
+</div>
+<div class="back-link">
+  <a href="master_timetable.html">&larr; Back to the Master Battle Plan</a>
+  &nbsp;•&nbsp;
+  <a href="index.html">Wedding documents</a>
+</div>
+</body>
+</html>
+"""
+
 
 def render_table(headers, rows, time_col=0):
     parts = ["<table>", "<tr>"]
@@ -953,9 +1010,7 @@ URGENT_ITEMS = [
      "The pre-dinner welcome toast is a brief 1–2 minute greeting; the full parents' speech happens later in the formal Speeches segment."),
     ("4", "Kids' meals need to be pre-ordered.",
      "Request kids' meals and an earlier kids' food time from Leonard's Palazzo for Meda, Sofia, Madison, and Emeric — adult entrées aren't served until 10:15 PM."),
-    ("5", "Rings are heirlooms carried by the toddler-aged ring bearer.",
-     "Use decoy rings on Emeric's pillow; Gustavo (Best Man) privately holds the real rings until the exchange."),
-    ("6", "✅ Resolved — rehearsal plan + venue.",
+    ("5", "✅ Resolved — rehearsal plan + venue.",
      "Full rehearsal-day plan set below; the Oct 18 timetable lists rehearsal dinner at Zum Stammtisch, beginning at 6:00 PM."),
 ]
 
@@ -991,8 +1046,7 @@ FRIDAY_ROWS = [
 ]
 
 FRIDAY_NOTES = (
-    "<strong>Bring to rehearsal:</strong> comfortable shoes, the officiant's contact info, and the ring pillow "
-    "(practice run only)."
+    "<strong>Bring to rehearsal:</strong> comfortable shoes, the officiant's contact info, and the ring pillow for practice."
 )
 
 SATURDAY_ROWS = [
@@ -1021,7 +1075,7 @@ SATURDAY_ROWS = [
     ("2:00 PM", "Processional / entrances to altar — see Processional Order.", "See order below", "Church"),
     ("After the processional", "Pastor reads the scripture; everyone kneels for prayer.", "Everyone", "Church"),
     ("During the ceremony", "Adam and Brittany say personal vows, then repeat the official religious vows after the pastor.", "Adam, Brittany", "Church"),
-    ("Ring exchange", "Emeric brings the rings to the altar; Adam and Brittany exchange rings.", "Adam, Brittany, Emeric", "Church"),
+    ("Ring exchange", "Emeric has the wedding rings from the beginning of the ceremony and carries them to the altar; Adam and Brittany exchange rings.", "Adam, Brittany, Emeric", "Church"),
     ("Candle-lighting", "Peter, Karin, Tomas, and Radka light candles from the Christ candle and hold the couple's hands as they light the unity candle.", "Adam, Brittany, Peter, Karin, Tomas, Radka", "Church"),
     ("After the ceremony", "Karin hands bubbles to everyone; the wedding party forms a line outside for the send-off.", "Karin, wedding party, guests", "Church exterior"),
     ("Recessional", "Everyone exits the church; Adam and Brittany exit last together, with Marie holding Brittany's dress as they exit.", "Everyone; Marie", "Church"),
@@ -1037,10 +1091,10 @@ SATURDAY_ROWS = [
     ("6:30–7:30 PM EST", "Cocktail hour for other guests, including Madison, Emeric, peter, Karin, Tomas, Radka, and Omi.", "Guests", "Leonard's Palazzo"),
     ("7:30 PM EST", "Dinner reception begins (venue schedule: 7:30 PM Saturday–12:30 AM Sunday).", "Everyone", "Reception room"),
     ("After reception begins (7:30 PM)", "Grand Entrance & Seating, a 15–20 minute sequence — see Grand Entrance Order.", "Everyone", "Reception room"),
-    ("After the grand entrance", "Dance 1 of 3: Adam and Brittany's first dance to \"Can't Help Falling in Love\" by Elvis Presley (Dancing on Clouds effect).", "Adam, Brittany", "Dance floor"),
+    ("After the grand entrance", f"Dance 1 of 3: Adam and Brittany's first dance to \"Can't Help Falling in Love\" by Elvis Presley — {DANCE_VIDEO_LINKS['adam_brittany']}; play for 1:30 (start offset not specified; Dancing on Clouds effect).", "Adam, Brittany", "Dance floor"),
     ("After the first dance", "After dance 1: MC/DJ invites other couples to join Adam and Brittany on the dance floor.", "Couples", "Dance floor"),
-    ("Parent dances, after the first dance", "Dance 2 of 3: Brittany dances with Peter to \"Give Me a Way\" by Riley Roth.", "Brittany, Peter", "Dance floor"),
-    ("After Brittany and Peter's dance", "Dance 3 of 3: Adam dances with Radka to \"Zestárli jsme lásko\" by Nohavica.", "Adam, Radka", "Dance floor"),
+    ("Parent dances, after the first dance", f"Dance 2 of 3: Brittany dances with Peter to \"Give Me a Way\" by Riley Roth — {DANCE_VIDEO_LINKS['brittany_peter']}, 0:00–1:25; then transition to \"Reach for the Stars\" by Pitbull and Kiss — {DANCE_VIDEO_LINKS['reach_for_the_stars']}, 0:17–0:30, then jump to the second verse at 2:14–2:32; dance ends.", "Brittany, Peter", "Dance floor"),
+    ("After Brittany and Peter's dance", f"Dance 3 of 3: Adam dances with Radka to \"Zestárli jsme lásko\" by Nohavica — {DANCE_VIDEO_LINKS['adam_radka']}, 0:00–1:00.", "Adam, Radka", "Dance floor"),
     ("Time not specified (listed after open dancing)", "Brittany changes her shoes and dress to be more comfortable; Marie and Adam help her change.", "Brittany, Marie, Adam", "Reception"),
     ("After the parent dances", "Open dancing; the requested mix is mostly Pitbull and Bebe Rexha.", "Everyone", "Dance floor"),
     ("~7:55 PM", "Brief welcome toast before the first course.", "peter &amp; Karin", "Reception room"),
@@ -1056,10 +1110,10 @@ SATURDAY_ROWS = [
     ("10:15 PM", "Entrées — Salmon, Filet Mignon, Herb Roasted Chicken, or Melanzana Pomodoro.", "Everyone", "Reception room"),
     ("10:45 PM", "Cake Cutting.", "Adam, Brittany", "Reception room"),
     ("~11:00 PM, after cake cutting", "Bouquet toss.", "Brittany", "Dance floor"),
-    ("After bouquet toss, during ~11:00 PM block", "Garter toss.", "Adam", "Dance floor"),
-    ("After garter toss, during ~11:00 PM block", "Anniversary dance; DJ calls up couples and eliminates by years married until the longest-married couple remains.", "Couples", "Dance floor"),
+    ("After the bouquet toss, during the ~11:00 PM block", "Anniversary dance; DJ calls up couples and eliminates by years married until the longest-married couple remains.", "Couples", "Dance floor"),
     ("After anniversary dance, before 11:30 PM dessert hour", "Last dance.", "Everyone", "Dance floor"),
     ("11:30 PM–12:30 AM EST (Sun, Nov 8)", "La Dolce Tavola dessert hour.", "Everyone", "Reception room"),
+    ("12:30 AM EST (Sun, Nov 8)", "Guests take favours home; everyone takes a wedding favour home (Karin makes sure there is only one wedding favour per couple).", "Everyone; Karin", "Reception room"),
     ("12:30 AM EST (Sun, Nov 8)", "Wedding event ends — no items may be left at the venue.", "Everyone", "Leonard's Palazzo"),
     ("12:30 AM EST+", "Return transportation — Camelot Limo Bus extended run.", "Everyone", "Venue → Hotel"),
 ]
@@ -1090,14 +1144,14 @@ PROCESSIONAL_ORDER = [
 ]
 
 GRAND_ENTRANCE_ORDER = [
-    "The 15–20 minute entrance-and-seating sequence follows cocktail hour. Group 1: Peter and Karin (bride's parents) enter first to \"You Spin Me Round\" by Dead or Alive.",
-    "Group 2: Tomas and Radka (groom's parents) enter immediately after Peter and Karin to \"Kdyby byla Morava\" starting at 0:26, when the singing starts.",
-    "Group 3: Emeric, Meda, Sofia, and Madison enter together immediately after Tomas and Radka to \"Dai Dai\" by Shakira.",
-    "Group 4: Marie (Maid of Honor) and Gustavo (Best Man) enter together to \"Rompe Rompe\" by Daddy Yankee, immediately after Emeric, Meda, Sofia, and Madison.",
-    "Group 5: Chris, Autumn, and Bara enter together immediately after Marie and Gustavo to \"I've Gotta Feeling\" by the Black Eyed Peas, starting at 1:29.",
-    "Group 6: Erik and Julia enter together immediately after Chris, Autumn, and Bara to \"Let's Get It Started\" by the Black Eyed Peas.",
-    "Group 7: Max, Julie, and Dalia enter together immediately after Erik and Julia to \"Gasolina\" by Daddy Yankee.",
-    "Group 8: <strong>Adam and Brittany</strong> enter as the grand finale immediately after Max, Julie, and Dalia, to \"Give Me Everything\" by Pitbull; the wedding party forms an arch.",
+    "The 15–20 minute entrance-and-seating sequence follows cocktail hour. Group 1: Peter and Karin (bride's parents) enter first to \"You Spin Me Round\" (<a href=\"https://youtu.be/Yf1ewCvFvmI\">https://youtu.be/Yf1ewCvFvmI</a>, starting at 1:00) by Dead or Alive.",
+    "Group 2: Tomas and Radka (groom's parents) enter immediately after Peter and Karin to \"Kdyby byla Morava\" (<a href=\"https://youtu.be/iR_tD9EBhTo\">https://youtu.be/iR_tD9EBhTo</a>, starting at 0:23).",
+    "Group 3: Emeric, Meda, Sofia, and Madison enter together immediately after Tomas and Radka to \"Dai Dai\" (<a href=\"https://youtu.be/Y3jq_WIHP9k\">https://youtu.be/Y3jq_WIHP9k</a>, starting at 0:24) by Shakira.",
+    "Group 4: Marie (Maid of Honor) and Gustavo (Best Man) enter together to \"Rompe Rompe\" (<a href=\"https://youtu.be/QHgryLv6IFk\">https://youtu.be/QHgryLv6IFk</a>, starting at 0:20) by Daddy Yankee, immediately after Emeric, Meda, Sofia, and Madison.",
+    "Group 5: Chris, Autumn, and Bara enter together immediately after Marie and Gustavo to \"I've Gotta Feeling\" (<a href=\"https://youtu.be/hs_yk24ghzA\">https://youtu.be/hs_yk24ghzA</a>, starting at 1:29) by the Black Eyed Peas.",
+    "Group 6: Erik and Julia enter together immediately after Chris, Autumn, and Bara to \"Let's Get It Started\" (<a href=\"https://youtu.be/uS9A9lqd7-k\">https://youtu.be/uS9A9lqd7-k</a>, starting at 0:58) by the Black Eyed Peas.",
+    "Group 7: Max, Julie, and Dalia enter together immediately after Erik and Julia to \"Gasolina\" (<a href=\"https://youtu.be/q6pbjleOHME\">https://youtu.be/q6pbjleOHME</a>, starting at 0:00) by Daddy Yankee.",
+    "Group 8: <strong>Adam and Brittany</strong> enter as the grand finale immediately after Max, Julie, and Dalia, to \"Give Me Everything\" (<a href=\"https://youtu.be/3MqUW5txLjs\">https://youtu.be/3MqUW5txLjs</a>, starting at 0:40) by Pitbull; the wedding party forms an arch.",
 ]
 
 TRANSPORT_ROWS = [
@@ -1126,11 +1180,11 @@ MUST_BRING_ROWS = [
     ("Adam (Groom)", "Marriage license, vows, wedding band, the ring, presents for Karin and Peter, blue suit for the rehearsal, the wagon for Madison, peter's ride confirmed, tux picked up Thursday. Cash envelopes for the ceremony: $500 for the pastor and $200 for the musician playing the bridal march. Flower delivery to receive at 9:30 AM Saturday", "Needed to legally marry; envelopes are paid at the church"),
     ("Brittany (Bride)", "Marriage license, vows, bouquet, something old/new/borrowed/blue, wedding dress shoes, wedding purse, a change of dress and flats for dancing, hair extensions, presents for Adam's parents, wedding bands + wedding invitation (as photo props for the 12:00 PM bridesmaid pictures)", "Bouquet is handed to Marie mid-ceremony"),
     ("Marie (Maid of Honor)", "Tissues/emergency kit, MOH speech notes. Hold Brittany's dress when exiting the church", "Receives the bouquet, gives a toast later"),
-    ("Gustavo (Best Man)", "The real wedding rings (decoy-ring plan), Best Man speech notes, tux picked up Thursday", "Rings must reach the altar"),
+    ("Gustavo (Best Man)", "Best Man speech notes, tux picked up Thursday", "Speech is during the formal Speeches block"),
     ("Dalia / Julia / Julie / Bara / Autumn (Bridesmaids)", "Dresses/shoes (any color but white), flats for dancing. Marie, Dalia, Julia, Julie, and Autumn arrive at the hotel at 11:40 AM for pictures. Bring a speech if you want to use the optional speech slot (Dalia, Julia, Julie, Bara, Autumn). Autumn: 7:00 AM hotel pickup with Chris; 8:30 AM Christie & Co. appointment with Brittany.", "Comfort for the long day"),
     ("Chris / Erik / Max (Groomsmen)", "Black tux/suit (picked up Thursday), boutonnieres. Chris: 7:00 AM hotel pickup to drive Autumn to Christie & Co. in Bayside.", "Dress code compliance"),
     ("Meda &amp; Sofia (Flower Girls)", "Flower petals/basket (practice walking and spreading petals at the 5:30 PM Friday rehearsal)", "Provided as part of the OG Floral order"),
-    ("Emeric (Ring Bearer)", "Ring pillow (decoy rings recommended), comfort item, the decorated wagon (acquired by Adam the week before)", "Rings are the centerpiece of the ceremony"),
+    ("Emeric (Ring Bearer)", "Ring pillow with the wedding rings from the beginning of the ceremony, comfort item, the decorated wagon (acquired by Adam the week before)", "Carries the rings to the altar"),
     ("Madison (Flower Girl role)", "Wagon (pulled by Emeric), snacks, comfort item/blanket; Radka packs her food, formula, protective headphones, toys and change of clothes", "She rides in rather than walks"),
     ("Karin (Mother of the Bride)", "Bubbles for guests, welcome speech notes, the crate of welcome-table/memorial-table items + wine-box favors + money box (dropped off the week before), decorations and the wagon for Madison at the 4:30 PM rehearsal", "Enters escorted by Chris; hands bubbles to guests after the ceremony"),
     ("peter (Father of the Bride)", "His car (for driving Adam), welcome speech notes. Saturday drives: pick up Omi (11:30 AM), Karin's cousin and family (12:00 PM), Adam (1:00 PM)", "The timetable lists teaching at 9:30 AM and 10:00 AM; class end time is not specified"),
@@ -1188,6 +1242,51 @@ def write_master_card():
         f.write(html)
     print(f"✅ Wrote {out_path}")
 
+def write_reception_card():
+    reception_start = next(
+        index for index, row in enumerate(SATURDAY_ROWS)
+        if row[1].startswith("Cocktail hour")
+    )
+    reception_end = next(
+        index for index, row in enumerate(SATURDAY_ROWS)
+        if row[1].startswith("Wedding event ends")
+    )
+    timetable_rows = SATURDAY_ROWS[reception_start:reception_end + 1]
+
+    dances = [
+        ("1", "Adam and Brittany", f'"Can\'t Help Falling in Love" by Elvis Presley — {DANCE_VIDEO_LINKS["adam_brittany"]}; play for 1:30, start offset not specified (Dancing on Clouds).'),
+        ("2", "Brittany and Peter", f'"Give Me a Way" by Riley Roth — {DANCE_VIDEO_LINKS["brittany_peter"]}, 0:00–1:25. Then transition to "Reach for the Stars" by Pitbull and Kiss — {DANCE_VIDEO_LINKS["reach_for_the_stars"]}, 0:17–0:30; jump to the second verse at 2:14–2:32, then the dance ends.'),
+        ("3", "Adam and Radka", f'"Zestárli jsme lásko" by Nohavica — {DANCE_VIDEO_LINKS["adam_radka"]}, 0:00–1:00.'),
+    ]
+    entrances = [
+        ("1", "Peter and Karin (bride's parents)", '"You Spin Me Round" by Dead or Alive (<a href="https://youtu.be/Yf1ewCvFvmI">https://youtu.be/Yf1ewCvFvmI</a>, starting at 1:00)', "First group"),
+        ("2", "Tomas and Radka (groom's parents)", '"Kdyby byla Morava" (<a href="https://youtu.be/iR_tD9EBhTo">https://youtu.be/iR_tD9EBhTo</a>, starting at 0:23)', "Immediately after Group 1"),
+        ("3", "Emeric, Meda, Sofia, and Madison", '"Dai Dai" by Shakira (<a href="https://youtu.be/Y3jq_WIHP9k">https://youtu.be/Y3jq_WIHP9k</a>, starting at 0:24)', "Immediately after Group 2"),
+        ("4", "Marie (Maid of Honor) and Gustavo (Best Man)", '"Rompe Rompe" by Daddy Yankee (<a href="https://youtu.be/QHgryLv6IFk">https://youtu.be/QHgryLv6IFk</a>, starting at 0:20)', "Immediately after Group 3"),
+        ("5", "Chris, Autumn, and Bara", '"I\'ve Gotta Feeling" by the Black Eyed Peas  (<a href="https://youtu.be/hs_yk24ghzA">https://youtu.be/hs_yk24ghzA</a>, starting at 1:29)', "Immediately after Group 4"),
+        ("6", "Erik and Julia", '"Let\'s Get It Started" by the Black Eyed Peas (<a href="https://youtu.be/uS9A9lqd7-k">https://youtu.be/uS9A9lqd7-k</a>, starting at 0:58)', "Immediately after Group 5"),
+        ("7", "Max, Julie, and Dalia", '"Gasolina" by Daddy Yankee (<a href="https://youtu.be/q6pbjleOHME">https://youtu.be/q6pbjleOHME</a>, starting at 0:00)', "Immediately after Group 6"),
+        ("8", "Adam and Brittany", '"Give Me Everything" by Pitbull (<a href="https://youtu.be/3MqUW5txLjs">https://youtu.be/3MqUW5txLjs</a>, starting at 0:40)', "Grand finale immediately after Group 7; wedding party forms an arch"),
+    ]
+
+    html = RECEPTION_SCROLL_TEMPLATE.format(
+        timetable=render_table(
+            ["Time", "Event", "Who", "Location"],
+            timetable_rows,
+            time_col=0,
+        ),
+        dances=render_table(["Order", "People", "Song and cue"], dances, time_col=None),
+        entrances=render_table(
+            ["Order", "People", "Song", "Entry cue"],
+            entrances,
+            time_col=None,
+        ),
+    )
+    out_path = os.path.join(OUTPUT_DIR, "reception_timetable.html")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(html)
+    print(f"✅ Wrote {out_path}")
+
 
 def write_print_packet():
     def page_content(filename):
@@ -1196,7 +1295,10 @@ def write_print_packet():
             html = f.read()
         return html.split("<body>", 1)[1].split('<div class="back-link">', 1)[0].strip()
 
-    sections = [page_content("master_timetable.html")]
+    sections = [
+        page_content("master_timetable.html"),
+        page_content("reception_timetable.html"),
+    ]
     for person in PEOPLE:
         for day in (1, 2):
             filename = f"{person['slug']}_day{day}.html"
@@ -1469,12 +1571,22 @@ def fill_source_gaps():
             new.append(("9:00–10:15 PM Formal Speeches segment: opportunity to give a speech (optional; 5th in the speeches, after Tomas and Radka's groom's parents' speech and before Adam and Brittany's thank-you speech).", 21 * 60 + 5))
         if slug in THANK_YOU_SPEECH and not has(r"thank.you speech"):
             new.append(("9:00–10:15 PM Formal Speeches segment, give your thank-you speech last (6th), after the optional speeches.", 21 * 60 + 10))
-        if not has(r"dance order"):
-            new.append(("Dance order: 1) Adam and Brittany's first dance; 2) Brittany and Peter's parent dance; 3) Adam and Radka's parent dance; then open dancing.", 19 * 60 + 49))
+        if slug in {"adam", "brittany", "peter", "radka"}:
+            new.append((f"Dance order 1/3: Adam and Brittany — \"Can't Help Falling in Love\" by Elvis Presley — {DANCE_VIDEO_LINKS['adam_brittany']}; play for 1:30, start offset not specified.",
+                        19 * 60 + 49))
+            new.append((f"Dance order 2/3: Brittany and Peter — \"Give Me a Way\" by Riley Roth — {DANCE_VIDEO_LINKS['brittany_peter']}, 0:00–1:25. Transition to \"Reach for the Stars\" by Pitbull and Kiss — {DANCE_VIDEO_LINKS['reach_for_the_stars']}, 0:17–0:30; jump to the second verse at 2:14–2:32, then the dance ends.",
+                        19 * 60 + 50))
+            new.append((f"Dance order 3/3: Adam and Radka — \"Zestárli jsme lásko\" by Nohavica — {DANCE_VIDEO_LINKS['adam_radka']}, 0:00–1:00; then open dancing.",
+                        19 * 60 + 51))
         if not has(r"speech order"):
             new.append(("Speech order (9:00–10:15 PM): 1) Peter and Karin; 2) Marie; 3) Gustavo; 4) Tomas and Radka; 5) optional speeches (Dalia, Julia, Julie, Bara, Autumn, Chris, Erik, Max, Omi); 6) Adam and Brittany's thank-you.", 21 * 60 - 1))
         if slug in NO_BUBBLES_OR_ARCH and not has(r"cake"):
             new.append(("~10:45 PM: cut the cake together.", 22 * 60 + 45))
+        if not has(r"favou?rs? home"):
+            if slug == "karin":
+                new.append(("End of the night: guests take favours home; make sure there is only one wedding favour per couple.", 24 * 60 + 30))
+            else:
+                new.append(("End of the night: take your wedding favour home.", 24 * 60 + 30))
         if not has(r"open danc"):
             new.append(("Open dancing — mostly Pitbull and Bebe Rexha.", 23 * 60))
         reception[:] = _sort_reception(new)
@@ -1493,6 +1605,7 @@ _TIME_RE = re.compile(r"(\d{1,2}):(\d\d)\s*(AM|PM)?(?:\s*[–-]\s*(\d{1,2}):(\d\
 _CUES = [
     (r"welcome toast", 19 * 60 + 55),
     (r"after the parent dances", 19 * 60 + 55),
+    (r"After Brittany and Peter's dance", 19 * 60 + 51),
     (r"first dance|parent dance", 19 * 60 + 50),
     (r"after the walk-in|forms an arch", 19 * 60 + 30),
     (r"time not specified in the timetable: (change|help brittany)", 19 * 60 + 58),
@@ -1587,6 +1700,7 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     write_master_card()
+    write_reception_card()
 
     index_items = []
     for person in PEOPLE:
@@ -1657,6 +1771,19 @@ def main():
     <div class="tile-links">
       <a href="master_timetable.html">Open the full timetable →</a>
       <a href="print_all.html">Print all documents →</a>
+    </div>
+  </div>
+  <div class="tile" style="grid-column: 1 / -1;">
+    <a href="reception_timetable.html">
+      <div style="height:120px; display:flex; align-items:center; justify-content:center; background:radial-gradient(circle, #6b4a14, #15110f); font-size:48px;">🎶</div>
+    </a>
+    <div class="tile-caption">
+      <strong>Reception Timetable — MC &amp; DJ Copy</strong><br>
+      <span>Reception timeline, first dances, and grand entrance order</span>
+    </div>
+    <div class="tile-links">
+      <a href="reception_timetable.html">Open the reception timetable →</a>
+      <a href="master_timetable.html">Open the full battle plan →</a>
     </div>
   </div>
   {''.join(tiles)}

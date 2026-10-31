@@ -9,10 +9,10 @@ time the timetable changes (the Oct 18 update followed exactly these steps).
 | Artifact | Produced by | Edited by hand? |
 |---|---|---|
 | `Wedding 2025 Brittany + Adam - Time table {before,church,reception}.csv` | The couple's spreadsheet export | **Source of truth** — replace the file, never edit it for convenience |
-| `generate_cards.py` | — | **Yes.** Single source for all card text, the master battle plan HTML, the index, and the print packet |
+| `generate_cards.py` | — | **Yes.** Single source for all card text, both timetable pages, the index, and the print packet |
 | `MASTER_TIMETABLE.md` | — | **Yes.** Human-readable plan; must mirror the generator's shared tables |
 | `LOGISTICS_REVIEW.md` | — | **Yes.** Conflicts, risks, confirmed vs. suggested items |
-| `cards/*.html` (person `_day1`/`_day2`, `master_timetable`, `index`, `print_all`) | `generate_cards.py` | **Never.** Overwritten on every run |
+| `cards/*.html` (person `_day1`/`_day2`, `master_timetable`, `reception_timetable`, `index`, `print_all`) | `generate_cards.py` | **Never.** Overwritten on every run |
 | `audit_cards.py` | — | Only to add rules (step 6) |
 | `build.sh` | — | Rarely |
 

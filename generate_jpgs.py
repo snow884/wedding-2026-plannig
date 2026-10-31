@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Render every card and the master battle plan to A4 JPGs (one JPG per printed page).
+"""Render every card and timetable to A4 JPGs (one JPG per printed page).
 
 Usage: python3 generate_jpgs.py [--dpi 200] [--out jpg_cards]
+       python3 generate_jpgs.py --only reception_timetable
 Requires: playwright (chromium installed) and PyMuPDF.
 """
 import argparse
@@ -61,17 +62,29 @@ def main():
     ap.add_argument("--dpi", type=int, default=200)
     ap.add_argument("--out", default="jpg_cards")
     ap.add_argument("--quality", type=int, default=92)
+    ap.add_argument(
+        "--only",
+        choices=("all", "master_timetable", "reception_timetable"),
+        default="all",
+        help="Render all documents or just one of the timetables",
+    )
     args = ap.parse_args()
 
     out = ROOT / args.out
     out.mkdir(exist_ok=True)
-    files = sorted(CARDS.glob("*_day[12].html")) + [CARDS / "master_timetable.html"]
+    if args.only == "all":
+        files = sorted(CARDS.glob("*_day[12].html")) + [
+            CARDS / "master_timetable.html",
+            CARDS / "reception_timetable.html",
+        ]
+    else:
+        files = [CARDS / f"{args.only}.html"]
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(device_scale_factor=args.dpi / 96)
         for f in files:
-            if f.name != "master_timetable.html":
+            if f.name not in {"master_timetable.html", "reception_timetable.html"}:
                 render_card(page, f, out / f"{f.stem}.jpg", args.dpi, args.quality)
                 continue
             page.goto(f.as_uri())
